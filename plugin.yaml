@@ -1,0 +1,25 @@
+name: hireabot
+version: "1.0.0"
+manifest_version: 2
+api_version: 1
+description: Hire a ready-made Hermes bot. Describe the job, read the bot's details, and install it as a new profile.
+author: Hireabot
+license: MIT
+homepage: https://github.com/luispereznet/hireabot
+requires_hermes: ">=0.22.5"
+tags: [bots, profiles, catalog, hire]
+provides_tools:
+  - hireabot_search
+  - hireabot_info
+  - hireabot_install
+config_schema:
+  catalog_source:
+    type: str
+    default: "https://raw.githubusercontent.com/luispereznet/hireabot/main/data/catalog.json"
+    label: Catalog source
+    description: "Bot list URL (default = this plugin's GitHub repo). Or a local path / file:// URL for offline testing."
+  max_results:
+    type: int
+    default: 5
+    label: Max search results
+    description: How many matches hireabot_search returns.
