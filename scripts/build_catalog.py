@@ -26,6 +26,12 @@ REPO_RAW = "https://raw.githubusercontent.com/luispereznet/hireabot/main"
 KEEP = ("summary", "tags", "use_cases", "hermes_requires", "license")
 START, END = "<!-- BOTS:START -->", "<!-- BOTS:END -->"
 SLUG_RE = re.compile(r"^[a-z0-9][a-z0-9-]{0,63}$")
+# Packages whose own description is only their name. Fix the package, then drop the line here.
+DESCRIPTION_OVERRIDES = {
+    "writing-bot": "Drafts and revises any kind of writing so it is clearer, better structured, and right for its audience.",
+    "chief-health-officer": "Turns your health goals and notes into a dated plan, with unknowns marked and one next step. Early alpha.",
+    "the-morning-newspaper": "Puts together a personal morning newspaper for you to read each day. Early alpha.",
+}
 
 
 def _yaml_field(lines: list[str], key: str) -> str | None:
@@ -70,6 +76,15 @@ def _package_meta(archive: Path) -> dict:
     return meta
 
 
+def _best_description(pm: dict, sm: dict) -> str:
+    """Package description, unless it is just the bot's name and the metadata catalog has more."""
+    pkg, src = pm.get("description") or "", sm.get("description") or ""
+    names = {(pm.get("name") or "").lower(), (sm.get("name") or "").lower(), (sm.get("slug") or "").lower()}
+    if not pkg or (pkg.lower() in names and len(src) > len(pkg)):
+        return src or pkg
+    return pkg
+
+
 def _readme_table(bots: list[dict]) -> str:
     rows = ["| Bot | Slug | Version | What it does |", "| --- | --- | --- | --- |"]
     for b in sorted(bots, key=lambda b: b["name"].lower()):
@@ -106,7 +121,7 @@ def main() -> None:
         entry = {
             "slug": slug,
             "name": pm.get("name") or sm.get("name") or slug,
-            "description": pm.get("description") or sm.get("description", ""),
+            "description": DESCRIPTION_OVERRIDES.get(slug) or _best_description(pm, sm),
             "version": pm.get("version") or sm.get("version", "0.1.0"),
         }
         for k in KEEP:

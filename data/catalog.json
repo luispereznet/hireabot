@@ -230,7 +230,7 @@
     {
       "slug": "chief-health-officer",
       "name": "Chief Health Officer",
-      "description": "Chief Health Officer",
+      "description": "Turns your health goals and notes into a dated plan, with unknowns marked and one next step. Early alpha.",
       "version": "1.0.0",
       "summary": "- Chief Health Officer",
       "tags": [
@@ -2326,7 +2326,7 @@
     {
       "slug": "swe",
       "name": "SWE",
-      "description": "SWE",
+      "description": "Software engineer bot that implements a code change and verifies it.",
       "version": "1.0.0",
       "summary": "SWE is a software engineering assistant that implements a code change and verifies it, writes code, triages issues and reviews production health using authorized evidence. This is a portable role adaptation, not an affiliation or preconnected engineering service.",
       "tags": [
@@ -2410,7 +2410,7 @@
     {
       "slug": "the-morning-newspaper",
       "name": "The Morning Newspaper",
-      "description": "The Morning Newspaper",
+      "description": "Puts together a personal morning newspaper for you to read each day. Early alpha.",
       "version": "1.0.0",
       "summary": "- The Morning Newspaper",
       "tags": [
@@ -2602,7 +2602,7 @@
     {
       "slug": "writing-bot",
       "name": "Writing Bot",
-      "description": "Writing Bot",
+      "description": "Drafts and revises any kind of writing so it is clearer, better structured, and right for its audience.",
       "version": "1.0.0",
       "summary": "- Writing Bot",
       "tags": [

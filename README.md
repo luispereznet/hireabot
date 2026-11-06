@@ -55,7 +55,7 @@ Then start Hermes (`hermes`) and ask for a bot in plain words.
 
 | Tool | What it does | Changes anything? |
 | --- | --- | --- |
-| `hireabot_search` | Matches what you need against each bot's name, use cases, description and tags. Returns the best matches with slug, name, description, a relative match score, and whether it is already installed. With no match, it returns steps for creating a bot instead (see [When no bot fits](#when-no-bot-fits)). | No |
+| `hireabot_search` | Matches what you need against each bot's name, use cases, description and tags. Returns the best matches with slug, name, description, a relative match score, and whether it is already installed. Weak matches (most of your words not found, low score) are dropped. With no match, it returns steps for creating a bot instead (see [When no bot fits](#when-no-bot-fits)). | No |
 | `hireabot_info` | Shows one bot's full details (summary, version, license, tags, use cases, package checksum) and the exact install steps. | No |
 | `hireabot_install` | Downloads the bot package, checks its size and sha256 against the catalog, checks every file in it against an allowlist, then runs `hermes profile import`. After import it copies your model settings onto the new profile. | Yes: adds one new profile |
 
@@ -99,7 +99,7 @@ Every bot in the catalog, by name. Ask for one in plain words, or use its slug w
 | Apple Search Ads Review | `apple-search-ads-review` | 1.0.0 | Reviews your Apple Search Ads spend against your cost per install target. |
 | Bot Designer | `bot-designer` | 0.1.0 | Designs Hermes bots with a tight persona, real skills, and an audit before handoff. |
 | Call Follow-Ups | `call-follow-ups` | 1.0.0 | Turns each recorded call into a follow-up email in your voice, a next-steps note, and the CRM updates, including the qualification fields your team runs on. |
-| Chief Health Officer | `chief-health-officer` | 1.0.0 | Chief Health Officer |
+| Chief Health Officer | `chief-health-officer` | 1.0.0 | Turns your health goals and notes into a dated plan, with unknowns marked and one next step. Early alpha. |
 | Clip Bot | `clip-bot` | 1.0.0 | Finds the best moments in a long recording and cuts them into short captioned clips. |
 | Company Docs Q&A | `company-docs-q-a` | 1.0.0 | Answers product and how-to questions from live docs first, then connected knowledge sources, and always cites sources. |
 | Competitor Watch | `competitor-watch` | 1.0.0 | Tracks competitor pricing, product, and hiring pages and briefs you on real changes. |
@@ -170,17 +170,17 @@ Every bot in the catalog, by name. Ask for one in plain words, or use its slug w
 | Stalk Bot | `stalk-bot` | 1.0.0 | Signs up for your competitors' newsletters and products under its own research email, walks their onboarding on video, and watches their site, pricing, changelo |
 | Startup QA Bot | `startup-qa-bot` | 1.0.0 | Walks your product every weekday in its own test account and tells you what shipped, what got unshipped, what broke (with repro steps and screenshots), and whic |
 | Stills & Clips Desk | `stills-clips-desk` | 1.0.0 | Pulls stills, thumbnails, and short clips out of your footage, sized for where they go. |
-| SWE | `swe` | 1.0.0 | SWE |
+| SWE | `swe` | 1.0.0 | Software engineer bot that implements a code change and verifies it. |
 | Talent Discovery | `talent-discovery` | 1.0.0 | Finds candidates for open roles that match your criteria and aren't already in your ATS. |
 | Tech Demos | `tech-demos` | 1.0.0 | Weekday X-bookmark scout that picks one new library to demo, asks for approval, then plans and builds it in a sticky monorepo with a cloud coding agent. |
-| The Morning Newspaper | `the-morning-newspaper` | 1.0.0 | The Morning Newspaper |
+| The Morning Newspaper | `the-morning-newspaper` | 1.0.0 | Puts together a personal morning newspaper for you to read each day. Early alpha. |
 | tinkabot | `tinkabot` | 0.1.0 | Wraps an HTTP API or OpenAPI/spec into a local MCP server plus Hermes skills. Proves it locally. Publishes only when you name a destination. |
 | Tradbot | `tradbot` | 1.0.0 | Watches your personal email and family schedule so school forms, bills, and RSVPs don't slip. |
 | Video Edit Desk | `video-edit-desk` | 1.0.0 | Turns uploaded footage into cut clips, burned-in captions, and platform-sized exports. |
 | Video Editor | `video-editor` | 1.0.0 | Edits short vertical talking-head videos from your raw footage: picks the best takes, captions what you actually said, and adds B-roll, motion graphics, and mus |
 | Webby | `webby` | 0.1.0 | Website, newsletter, and public dashboard admin you configure for your own site. Create-only. Ships rather than plans. |
 | Website Ops | `website-ops` | 1.0.0 | Website operations and content manager. |
-| Writing Bot | `writing-bot` | 1.0.0 | Writing Bot |
+| Writing Bot | `writing-bot` | 1.0.0 | Drafts and revises any kind of writing so it is clearer, better structured, and right for its audience. |
 | WTD | `wtd` | 1.0.0 | WTD is a VIP hospitality planning partner for marketing ops — project-plan and status rhythm across tentpoles and ticket banks, nomination-sheet tracking, marke |
 | X Brief | `x-brief` | 1.0.0 | Turns the X accounts and topics you pick into one short daily brief with a link on every line. |
 <!-- BOTS:END -->

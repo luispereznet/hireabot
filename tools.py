@@ -22,7 +22,7 @@ SLUG_RE = re.compile(r"^[a-z0-9][a-z0-9-]{0,63}$")
 CACHE_TTL = 24 * 3600
 STOP = set(
     "a an and any are as at be bot bots can do for from get have help i in is it me my need of on "
-    "or please some someone something that the to want with you your agent assistant would like".split()
+    "or please some someone something that the to want with you your agent assistant would like into".split()
 )
 FIELDS = (("name", 8.0), ("use_cases", 5.0), ("description", 3.0), ("tags", 1.5), ("summary", 1.0))
 # Archive allowlist: a clean bot archive holds only these. Anything else is refused.
@@ -213,6 +213,22 @@ def score(bot: dict, q_terms: list[str], q_raw: str) -> float:
     return round(total, 3)
 
 
+# A result must cover more than half of the query's words, or score high on the
+# weighted fields. Below that it is noise, and the user is offered to create a bot.
+MIN_COVERAGE = 0.5
+STRONG_SCORE = 8.0
+
+
+def coverage(bot: dict, q_terms: list[str]) -> float:
+    q_set = set(q_terms)
+    if not q_set:
+        return 0.0
+    toks: set[str] = set()
+    for field, _w in FIELDS:
+        toks |= set(_terms(_field_text(bot, field)))
+    return sum(1 for t in q_set if t in toks) / len(q_set)
+
+
 def search(query: str, limit: int) -> list[dict]:
     cat, _ = load_catalog()
     q_terms = _terms(query)
@@ -220,7 +236,7 @@ def search(query: str, limit: int) -> list[dict]:
     return [
         {"slug": b["slug"], "name": b.get("name"), "description": b.get("description"), "score": s}
         for s, b in ranked
-        if s > 0
+        if s > 0 and (s >= STRONG_SCORE or coverage(b, q_terms) > MIN_COVERAGE)
     ][:limit]
 
 
