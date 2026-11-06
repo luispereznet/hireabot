@@ -8,7 +8,7 @@
       "slug": "account-research-desk",
       "name": "Account Research Desk",
       "description": "Researches the companies you sell to and writes your pre-call brief and account plan.",
-      "version": "1.0.0",
+      "version": "0.1.0",
       "summary": "Research companies the user sells to and turn public evidence plus authorized user notes into call briefs, stakeholder maps, signals, threads, usage assessments and account plans. Not a prospecting-list builder or a CRM; do not send mail for the user.",
       "tags": [
         "sales",
@@ -44,14 +44,14 @@
       "license": "MIT",
       "status": "available",
       "download": "https://raw.githubusercontent.com/luispereznet/hireabot/main/packages/account-research-desk.tar.gz",
-      "sha256": "0015328bab1dc8cd103ed0ef364c0f4e206708519484ff3418a9870d1dbb70e2",
-      "size": 18986
+      "sha256": "647cc075ce4a40081bc60adfd5adb44d84b5fa553ac78cb6bfba1378b0035483",
+      "size": 20489
     },
     {
       "slug": "ad-spend-watch",
       "name": "Ad Spend Watch",
       "description": "Watches your ad spend and performance and flags what's breaking before it burns budget.",
-      "version": "1.0.0",
+      "version": "0.1.0",
       "summary": "Watch user-selected paid ad accounts for runaway spend and collapsing performance against user-owned thresholds. Flagging, diagnosing, and recommending is the whole job. Changing a campaign stays the user's call. I am not a media buyer or a weekly reporting service.",
       "tags": [
         "marketing",
@@ -81,14 +81,14 @@
       "license": "MIT",
       "status": "available",
       "download": "https://raw.githubusercontent.com/luispereznet/hireabot/main/packages/ad-spend-watch.tar.gz",
-      "sha256": "89b8b8a626bafcfc37751e43165de331cb47a03d28f29330a9e302e7fc2b634f",
-      "size": 19314
+      "sha256": "9e81a0aee88a227f0241fc554dbc28e8203ca09006dc4655430c5b20debaea72",
+      "size": 20813
     },
     {
       "slug": "ai-search-visibility",
       "name": "AI Search Visibility",
       "description": "Checks whether AI assistants and Google recommend you, and who they name instead.",
-      "version": "1.0.0",
+      "version": "0.1.0",
       "summary": "Check whether AI assistants and search results recommend the user's company on real buyer questions, and name who appears instead. Use the prompt list, visibility check, pasted capture, weekly brief, citation audit, scoreboard and fix-drafting skills. Login-only answers supplied by the user are normal evidence, with explicit provenance.",
       "tags": [
         "marketing",
@@ -115,8 +115,8 @@
       "license": "MIT",
       "status": "available",
       "download": "https://raw.githubusercontent.com/luispereznet/hireabot/main/packages/ai-search-visibility.tar.gz",
-      "sha256": "0401b3fcd286d0f7791b1f89df71bbaf73733937b91b3ddc2f82339259868288",
-      "size": 18524
+      "sha256": "a1594a5b06805c33e4a4da02e27c0ee5b8f047e951991709a076d1f39f1826ff",
+      "size": 19924
     },
     {
       "slug": "alfred",
@@ -124,7 +124,6 @@
       "description": "Designs, audits, and governs your Hermes bot organization so it matches real company outcomes, with clear human owners and no duplicate jobs.",
       "version": "0.1.0",
       "summary": "Designs, audits, and governs your Hermes bot organization so it matches real company outcomes, with clear human owners and no duplicate jobs.",
-      "tags": [],
       "use_cases": [
         "Use for a noisy bot, stale skill, failing routine, or portfolio drift.",
         "Use after setup or when asked: offer the monthly portfolio review.",
@@ -139,16 +138,17 @@
       ],
       "hermes_requires": ">=0.22.5",
       "license": "MIT",
+      "tags": [],
       "status": "available",
       "download": "https://raw.githubusercontent.com/luispereznet/hireabot/main/packages/alfred.tar.gz",
-      "sha256": "076a1ab91a63a7cb723332a13185fccab3902a42ceee3423b3275f13e68ac801",
-      "size": 14370
+      "sha256": "bef052f665edef5983f556156d0f69df9eebe46f67be1c7a2fe769d1d82c4878",
+      "size": 15500
     },
     {
       "slug": "apple-search-ads-review",
       "name": "Apple Search Ads Review",
       "description": "Reviews your Apple Search Ads spend against your cost per install target.",
-      "version": "1.0.0",
+      "version": "0.1.0",
       "summary": "Review Apple Search Ads exports against user-confirmed CPI targets and draft changes for manual application. Pasted or uploaded CSV is the normal input, not a fallback. Never buy media, edit the ad account or write creative. Route exports to spend-review, wasted search spend to search-terms-and-negatives, bid math to bids-and-budgets, weekly analysis to weekly-ad-review and approved proposals to change-sheet.",
       "tags": [
         "marketing",
@@ -173,8 +173,8 @@
       "license": "MIT",
       "status": "available",
       "download": "https://raw.githubusercontent.com/luispereznet/hireabot/main/packages/apple-search-ads-review.tar.gz",
-      "sha256": "9696f579799d7e1064def86ae747d26beac6f8fc8cae9337e3d7ac99ff6d5569",
-      "size": 14587
+      "sha256": "5ff6bfff28c970ac6994077f8b2efc53ee1c340eee9ebed1e0756abf254775f7",
+      "size": 15688
     },
     {
       "slug": "bot-designer",
@@ -182,7 +182,6 @@
       "description": "Designs Hermes bots with a tight persona, real skills, and an audit before handoff.",
       "version": "0.1.0",
       "summary": "Designs Hermes bots with a tight persona, real skills, and an audit before handoff.",
-      "tags": [],
       "use_cases": [
         "Use when designing or creating a new Hermes bot.",
         "Use after setup or when asked about routines: offer routine check.",
@@ -193,16 +192,17 @@
       ],
       "hermes_requires": ">=0.22.5",
       "license": "MIT",
+      "tags": [],
       "status": "available",
       "download": "https://raw.githubusercontent.com/luispereznet/hireabot/main/packages/bot-designer.tar.gz",
-      "sha256": "bde75343e574136f471959f2e3d72196ac8ee1cb92acc5465d8bf150cf9af0f1",
-      "size": 11859
+      "sha256": "304eee4ca18e640bbc01eb09c4f9cef3840991f5c462af1ac8d16ed9e1fab2f5",
+      "size": 12611
     },
     {
       "slug": "call-follow-ups",
       "name": "Call Follow-Ups",
       "description": "Turns each recorded call into a follow-up email in your voice, a next-steps note, and the CRM updates, including the qualification fields your team runs on.",
-      "version": "1.0.0",
+      "version": "0.1.0",
       "summary": "Turn authorized call transcripts into an action-oriented email draft, next-steps note, promise register and CRM change proposal. Use recap-email, next-steps-note, promise-tracker, crm-update-proposal and voice-profile; getting-started coordinates the first demo.",
       "tags": [
         "sales",
@@ -224,14 +224,14 @@
       "license": "MIT",
       "status": "available",
       "download": "https://raw.githubusercontent.com/luispereznet/hireabot/main/packages/call-follow-ups.tar.gz",
-      "sha256": "b36fd0b23c80242f0d263a934968b463cd59feb36015e1a5f19e8777914352ba",
-      "size": 14837
+      "sha256": "f45c8890d5b23aec4f4d1525bc30871b9e085ae054dbe181b2d0ecca25d129c5",
+      "size": 16118
     },
     {
       "slug": "chief-health-officer",
       "name": "Chief Health Officer",
       "description": "Turns your health goals and notes into a dated plan, with unknowns marked and one next step. Early alpha.",
-      "version": "1.0.0",
+      "version": "0.1.0",
       "summary": "- Chief Health Officer",
       "tags": [
         "personal",
@@ -244,14 +244,14 @@
       "license": "MIT",
       "status": "available",
       "download": "https://raw.githubusercontent.com/luispereznet/hireabot/main/packages/chief-health-officer.tar.gz",
-      "sha256": "382cf9818f20db765aecf90a2834bff776ca7b0b8832e16f72e4957e976c67e4",
-      "size": 7568
+      "sha256": "7066c4867e1a9bf5f18707aff5decc0a2719e30e7d21e5ea3906bcc78a9667d3",
+      "size": 8134
     },
     {
       "slug": "clip-bot",
       "name": "Clip Bot",
       "description": "Finds the best moments in a long recording and cuts them into short captioned clips.",
-      "version": "1.0.0",
+      "version": "0.1.0",
       "summary": "- Finds the best moments in a long recording and cuts them into short captioned clips. - Works from an upload or a link, with transcript and timestamps on every clip. - I am Clip Bot. - I work on talks, podcasts, interviews, and recorded calls. - When memory already holds your prefs I skip the questions and offer the two or three things most useful today. - My clip queue pass and Friday recap stay off until you turn them on, and they run in your timezone.",
       "tags": [
         "marketing",
@@ -274,14 +274,14 @@
       "license": "MIT",
       "status": "available",
       "download": "https://raw.githubusercontent.com/luispereznet/hireabot/main/packages/clip-bot.tar.gz",
-      "sha256": "89b51ad0c7f70832b00d9cd7de88c1b9c0b9eda6670c6bdbd7adf24488fc5bc6",
-      "size": 13411
+      "sha256": "bd0840be8f6ced73181edef9ea8102a8a2536f6fafcc3916a1ff558925a2a16b",
+      "size": 14600
     },
     {
       "slug": "company-docs-q-a",
       "name": "Company Docs Q&A",
       "description": "Answers product and how-to questions from live docs first, then connected knowledge sources, and always cites sources.",
-      "version": "1.0.0",
+      "version": "0.1.0",
       "summary": "Answer product and how-to questions from live public product docs first, then authorized internal sources. Always cite the actual evidence. Use docs-first-answer, connected-knowledge-search and verified-message-draft.",
       "tags": [
         "sales",
@@ -298,14 +298,14 @@
       "license": "MIT",
       "status": "available",
       "download": "https://raw.githubusercontent.com/luispereznet/hireabot/main/packages/company-docs-q-a.tar.gz",
-      "sha256": "c2d90fe7bc79483862ea278a29edb8d1c63a633e6923f7a3ee6643a801dd60f8",
-      "size": 9116
+      "sha256": "41653288075fc2c87f6b97303ae00c3b37327b943ca77d1dad3380ef06965749",
+      "size": 9786
     },
     {
       "slug": "competitor-watch",
       "name": "Competitor Watch",
       "description": "Tracks competitor pricing, product, and hiring pages and briefs you on real changes.",
-      "version": "1.0.0",
+      "version": "0.1.0",
       "summary": "- Tracks competitor pricing, product, and hiring pages and briefs you on real changes. - Starts from a list of URLs you paste. - I keep a short list of your competitors under watch on the public web and only flag the changes that matter to a founder, PM, marketer, or sales lead.",
       "tags": [
         "product",
@@ -326,14 +326,14 @@
       "license": "MIT",
       "status": "available",
       "download": "https://raw.githubusercontent.com/luispereznet/hireabot/main/packages/competitor-watch.tar.gz",
-      "sha256": "026920935cc09dca0f0411104dc09ac310ef5581606e00f8be8e1e842d42eb29",
-      "size": 14466
+      "sha256": "33aca7785959f9d7270cf1a4c4109b581dc6a92736caa40ed5682d1a6cc84f67",
+      "size": 15519
     },
     {
       "slug": "cooper",
       "name": "Cooper",
       "description": "News agent for AI, tech, venture capital, and business.",
-      "version": "1.0.0",
+      "version": "0.1.0",
       "summary": "News agent for AI, tech, venture capital and business. Use daily-news-briefing for a concise evidence-backed roundup and competitor-breaking-alert for high-bar product, strategy and key-hire news. Recipient watchlists and sources must be confirmed, never inherited from the original owner.",
       "tags": [
         "sales",
@@ -353,14 +353,14 @@
       "license": "MIT",
       "status": "available",
       "download": "https://raw.githubusercontent.com/luispereznet/hireabot/main/packages/cooper.tar.gz",
-      "sha256": "7e4ce25a4f48fb655b8e738d71ea68d5d3c3f6373decd321b6f46400e42de94e",
-      "size": 11331
+      "sha256": "3a6b3c4b41b61b97fe73e821b2f8c6ea4fc4540b3e2d919e7452b95f55cebfc5",
+      "size": 12178
     },
     {
       "slug": "copy-humanizer",
       "name": "Copy Humanizer",
       "description": "Edits and rewrites drafts so they read like a person wrote them, in your voice.",
-      "version": "1.0.0",
+      "version": "0.1.0",
       "summary": "- Edits and rewrites drafts, emails, and pages so they read like a person wrote them. - Keeps your voice, shows every change and why, and never invents a fact. - I edit your own drafts to be tighter and clearer without losing your voice, and I rewrite stiff or machine-sounding copy so it reads like a person: emails, landing pages, posts, blogs, DMs. - I draft, you publish.",
       "tags": [
         "marketing",
@@ -384,14 +384,14 @@
       "license": "MIT",
       "status": "available",
       "download": "https://raw.githubusercontent.com/luispereznet/hireabot/main/packages/copy-humanizer.tar.gz",
-      "sha256": "e88b0a2295393c852eeb721b23f6a1fff5864b1d34394ece5a79f8f2840f7f4b",
-      "size": 16715
+      "sha256": "2b23a7892d24e5a59c6681e8be64aee059e6498bd3070d06a58a2eeedb357c9c",
+      "size": 17866
     },
     {
       "slug": "credit-card-max",
       "name": "Credit Card Max",
       "description": "Tells you which of your credit cards to use for each purchase to get the most points, cash back and perks.",
-      "version": "1.0.0",
+      "version": "0.1.0",
       "summary": "- Advises which credit card to use for a given purchase to maximize points, cash back, and perks. - Tracks cards, unused benefits, and misrouted recurring charges, and runs a monthly utilization review.",
       "tags": [
         "personal",
@@ -413,14 +413,14 @@
       "license": "MIT",
       "status": "available",
       "download": "https://raw.githubusercontent.com/luispereznet/hireabot/main/packages/credit-card-max.tar.gz",
-      "sha256": "41085226624f32c3f849a8b0d1d90136405d04c0899e04c3a830fb7bd41a97d2",
-      "size": 11400
+      "sha256": "22791267cefcc362f9251ac0d4140879e07d439312e468ea6e5f02ef681ab15f",
+      "size": 12301
     },
     {
       "slug": "critiquito-design-critique",
       "name": "Critiquito: Design Critique",
       "description": "Turns a screenshot or Figma link into a design critique with ranked, concrete fixes.",
-      "version": "1.0.0",
+      "version": "0.1.0",
       "summary": "- Turns a screenshot or Figma link into a design critique with ranked, concrete fixes. - I'm Critiquito, and I critique product screens. - When memory already holds your prefs I skip the questions and ask for the screen. - One screen goes to screen-critique, two versions to compare-versions, a sequence to flow-critique, contrast and targets to accessibility-pass, labels and errors to ui-copy-pass, and tickets or an archive page to hand-off-the-fixes. - My weekly open fixes check stays off until you turn it on, and it runs in your timezone.",
       "tags": [
         "design",
@@ -444,14 +444,14 @@
       "license": "MIT",
       "status": "available",
       "download": "https://raw.githubusercontent.com/luispereznet/hireabot/main/packages/critiquito-design-critique.tar.gz",
-      "sha256": "a997c687214aaae5ea34a278ba9e6e42d266523ab7bf2601dee979eec7225584",
-      "size": 12397
+      "sha256": "c8f0cb4096f99a9a6c18fe4cc118944398bd3af557490b4b42060358977ff8d1",
+      "size": 13526
     },
     {
       "slug": "customer-call-coach-assistant",
       "name": "Customer Call Coach & Assistant",
       "description": "Briefs you before customer calls and coaches you after based on your performance.",
-      "version": "1.0.0",
+      "version": "0.1.0",
       "summary": "Brief before customer calls and coach afterward. Use field customer-success instincts and structured problem-solving: answer-first, MECE, SCR/SCQA and Pyramid Principle. Focus on presentation style, narrative ownership, enablement delivery and executive storytelling, not account operations alone. On an empty first greeting use exactly: Hey there! I'm here to help you nail your next customer call. Before each meeting, I pull your notes, past threads, and account context into one brief. After, I turn what happened into sharp feedback on your storytelling, enablement, and how you handle pushback. End with \"Where do you want to start?\" and only two options: \"Prep me for an upcoming call\" and \"Coach me on a call that already happened.\" Use plain text if widgets are unavailable. No setup dump, creator name, connector offer or auto-enable on that menu. Source retrieval claims are conditional on verified access. After prior prep/coach work or saved preferences, use exactly: Welcome back — want to prep for an upcoming call, or coach one that already happened? Repeat only those same two options. Concrete work takes precedence over greetings.",
       "tags": [
         "sales",
@@ -469,14 +469,14 @@
       "license": "MIT",
       "status": "available",
       "download": "https://raw.githubusercontent.com/luispereznet/hireabot/main/packages/customer-call-coach-assistant.tar.gz",
-      "sha256": "8b4fb89f24816bc6bd6db9a2cfe1a8cb345fc51cce284b595536ad7c39912af7",
-      "size": 11137
+      "sha256": "e9d05747601151d833f45bc56e2a89e64d5bdeb1d443938dd02abd43660e2a5c",
+      "size": 12183
     },
     {
       "slug": "customer-proof-desk",
       "name": "Customer Proof Desk",
       "description": "Turns call notes and transcripts into case studies, testimonials, and proof points.",
-      "version": "1.0.0",
+      "version": "0.1.0",
       "summary": "- Turns call notes and transcripts into case studies, testimonials, and proof points. - Quotes stay word for word from what you paste, and nothing publishes without your yes. - I turn call notes, transcripts, and customer email into case studies, testimonials, and proof points, and every quote stays traceable to its source. - When memory already holds your prefs I skip the questions and offer the two or three things most useful today. - Every quote I use is word for word from a source you gave me, cut only with an ellipsis. - Nothing gets published or sent until you say yes, and I flag what still needs the customer's sign-off. - My Monday roundup and monthly freshness check stay off until you turn them on, and they run in your timezone.",
       "tags": [
         "sales",
@@ -509,14 +509,14 @@
       "license": "MIT",
       "status": "available",
       "download": "https://raw.githubusercontent.com/luispereznet/hireabot/main/packages/customer-proof-desk.tar.gz",
-      "sha256": "64d14b7ac0985d9dc4d4804c2be0367b1cf0fd34a05c3d64fd932913493fcfec",
-      "size": 13925
+      "sha256": "a21ddea840cbe2e76a43299dac80d835fc9846174aefae7adb6cd0d2e15a179c",
+      "size": 14894
     },
     {
       "slug": "deal-hunting",
       "name": "Deal Hunting",
       "description": "Landed-cost shopping: real prices, shipping and tax, preferred retailers.",
-      "version": "1.0.0",
+      "version": "0.1.0",
       "summary": "- Landed-cost shopping: real prices, shipping and tax, preferred retailers. - Watchlist optional.",
       "tags": [
         "personal"
@@ -529,14 +529,14 @@
       "license": "MIT",
       "status": "available",
       "download": "https://raw.githubusercontent.com/luispereznet/hireabot/main/packages/deal-hunting.tar.gz",
-      "sha256": "92fc2efcb0bf28c84d9bfeb478d2f762c6fed1eb5583a3060c319c2512e5f446",
-      "size": 8319
+      "sha256": "ef84820ab4b2a57ac40b4451bb1a0fb4a614eaef2acbefd99f02f8cea845b6aa",
+      "size": 8858
     },
     {
       "slug": "deal-inspector",
       "name": "Deal Inspector",
       "description": "Checks every deal that moved stage against your qualification criteria using the actual call transcripts.",
-      "version": "1.0.0",
+      "version": "0.1.0",
       "summary": "Audit sales opportunities against an approved qualification framework using actual call evidence. Recommend Promote, Close or Insufficient Data and draft CRM changes, not sales commitments.",
       "tags": [
         "sales",
@@ -554,14 +554,14 @@
       "license": "MIT",
       "status": "available",
       "download": "https://raw.githubusercontent.com/luispereznet/hireabot/main/packages/deal-inspector.tar.gz",
-      "sha256": "e66a68986ecc54222c985576f15166eb55147292c161ac4a54b7ef95e5d2c7b9",
-      "size": 13531
+      "sha256": "2ec59faf2275173a177e09182251b0930287f22c9260ed805bbb182469112355",
+      "size": 14541
     },
     {
       "slug": "dial-bot",
       "name": "dial bot",
       "description": "Places outbound Bland AI phone calls when you ask, then reports what happened.",
-      "version": "1.0.0",
+      "version": "0.1.0",
       "summary": "- Places outbound Bland AI phone calls when you ask, then reports what happened. - On first use it asks for a Bland API key and voice.",
       "tags": [
         "personal",
@@ -574,14 +574,14 @@
       "license": "MIT",
       "status": "available",
       "download": "https://raw.githubusercontent.com/luispereznet/hireabot/main/packages/dial-bot.tar.gz",
-      "sha256": "f1fab79c6fa5f3ed7ffd89896642ccab06dcf2b3060a88bbabf06226328839f1",
-      "size": 8233
+      "sha256": "63b26e1192a9c5620dc007a5dcf4d6c7beeddd43f032dbd13ec710702f86285e",
+      "size": 8788
     },
     {
       "slug": "director",
       "name": "Director",
       "description": "Your video director: turn briefs into short films, ads, explainers, music videos, micro-dramas, and more — plan, shoot, cut, and deliver.",
-      "version": "1.0.0",
+      "version": "0.1.0",
       "summary": "- Your video director: turn briefs into short films, ads, explainers, music videos, micro-dramas, and more — plan, shoot, cut, and deliver.",
       "tags": [
         "marketing",
@@ -612,14 +612,14 @@
       "license": "MIT",
       "status": "available",
       "download": "https://raw.githubusercontent.com/luispereznet/hireabot/main/packages/director.tar.gz",
-      "sha256": "947797628882f4363e6f001e110c331acc3e972275838fcadc445a243f554955",
-      "size": 9609
+      "sha256": "3316fb179534d998f1a48e8be0d45e7a2931ae9d8b82489e690a8ae91febf324",
+      "size": 10321
     },
     {
       "slug": "distro-bot",
       "name": "Distro Bot",
       "description": "Runs your marketing loop end to end: campaigns on your ad accounts, fresh creative, real channel analysis, timely posts from X and web scans, and outbound until",
-      "version": "1.0.0",
+      "version": "0.1.0",
       "summary": "Get the recipient's product seen through campaigns, creative, channel analysis, market scans, positioning and outbound. Work from their evidence and authorized accounts, never an assumed owner or connection.",
       "tags": [
         "marketing",
@@ -648,14 +648,14 @@
       "license": "MIT",
       "status": "available",
       "download": "https://raw.githubusercontent.com/luispereznet/hireabot/main/packages/distro-bot.tar.gz",
-      "sha256": "01b82c364252f4f4f2287f37929feef6ae1bcb5f0b3358f9d883cd30ee82f550",
-      "size": 16263
+      "sha256": "a13868b86dc4135a068d0465f1d7b6926261320ddcf80e50841ebc5bec1e0826",
+      "size": 17569
     },
     {
       "slug": "ebr-value-deck-builder",
       "name": "EBR & Value Deck Builder",
       "description": "Builds an executive business review or value deck for a named account from your CRM, call history, and usage data, on your brand, and hands you an editable file",
-      "version": "1.0.0",
+      "version": "0.1.0",
       "summary": "Build editable executive business reviews and value decks for named accounts from authorized CRM, call history and usage data. Deliver files for owner review.",
       "tags": [
         "sales",
@@ -675,14 +675,14 @@
       "license": "MIT",
       "status": "available",
       "download": "https://raw.githubusercontent.com/luispereznet/hireabot/main/packages/ebr-value-deck-builder.tar.gz",
-      "sha256": "07d686ed0aa7a88e2dc1e4704f2db0f319186059d35418e5bcb1127206a63e7a",
-      "size": 14444
+      "sha256": "d3a8d83c5f289cc3e7890aba903ea85953ad9a0afd7d1317223f2ec60cd26844",
+      "size": 15589
     },
     {
       "slug": "engineer-bot",
       "name": "Engineer Bot",
       "description": "A hands-off engineering supervisor.",
-      "version": "1.0.0",
+      "version": "0.1.0",
       "summary": "Supervise engineering tasks and existing cloud coding agents from a user-selected repository.",
       "tags": [
         "engineering",
@@ -707,14 +707,14 @@
       "license": "MIT",
       "status": "available",
       "download": "https://raw.githubusercontent.com/luispereznet/hireabot/main/packages/engineer-bot.tar.gz",
-      "sha256": "498a9fc240dfe25f234e5186b7e1fedbf6240ffb4325056f2f839d7693807a7c",
-      "size": 14334
+      "sha256": "5a9f8a56a55314c6ce16a467da1e0c111d0f6286c0a09817ad21109741fd4fe8",
+      "size": 15806
     },
     {
       "slug": "engineering-lead",
       "name": "Engineering Lead",
       "description": "An engineering lead that breaks work into small tasks, runs them with Hermes subagents or your coding tools, and chases tests, CI and reviews with the GitHub CLI.",
-      "version": "1.0.0",
+      "version": "0.1.0",
       "summary": "- An engineering lead that owns the loop on your own computer: breaks work into small tasks, runs them with Hermes subagents or the coding tools you have, chases tests, CI and reviews with the GitHub CLI, and only pings you when something is blocked, ready to merge, or done. - Best for eng leads and power users who run coding agents. - I own the loop: decompose, run, chase, report. A task is done when its PR is merged, it is explicitly abandoned, or you take it back.",
       "tags": [
         "engineering",
@@ -736,14 +736,14 @@
       "license": "MIT",
       "status": "available",
       "download": "https://raw.githubusercontent.com/luispereznet/hireabot/main/packages/engineering-lead.tar.gz",
-      "sha256": "184e4a5748c1b79775cd1c0e6f8f3f55c691c08eedf2b43ee587aae0574ab074",
-      "size": 11763
+      "sha256": "0dc447d621ed43ede34ceaedcb91ef51609f2581397421d4b007bfc22732547e",
+      "size": 12592
     },
     {
       "slug": "event-producer",
       "name": "Event Producer",
       "description": "Turns your event details into a run of show, guest list, and day-of checklist.",
-      "version": "1.0.0",
+      "version": "0.1.0",
       "summary": "- Turns your event details into a run of show, guest list, and day-of checklist. - When memory already holds your event I skip the questions and open with how many days out you are and what is unconfirmed. - Timing goes to the run of show, suppliers to the vendor tracker, people to the guest list and guest travel, the day itself to the day-of checklist, and afterwards to the recap.",
       "tags": [
         "marketing",
@@ -771,14 +771,14 @@
       "license": "MIT",
       "status": "available",
       "download": "https://raw.githubusercontent.com/luispereznet/hireabot/main/packages/event-producer.tar.gz",
-      "sha256": "5ad57ee81d5a5994ad06c58ee6cc160fb1ba427835c6f0cbf46d5550af8ed2fd",
-      "size": 13397
+      "sha256": "40de278b64b33519a95aa690ba3b9fdfe1b363b514ee7121a50f88f2f0299856",
+      "size": 14537
     },
     {
       "slug": "event-request-desk",
       "name": "Event Request Desk",
       "description": "Scores every event, sponsorship, and speaking ask, then drafts your yes or no.",
-      "version": "1.0.0",
+      "version": "0.1.0",
       "summary": "Run the event request desk for one team. Log event invitations, sponsorships, speaking, booths, partnerships, swag and other comparable asks in one queue; recommend yes, no, not now or needs info, draft replies and track obligations after an approved yes. Do not produce events, own a budget or act as a general chatbot.",
       "tags": [
         "operations",
@@ -806,14 +806,14 @@
       "license": "MIT",
       "status": "available",
       "download": "https://raw.githubusercontent.com/luispereznet/hireabot/main/packages/event-request-desk.tar.gz",
-      "sha256": "e76595ce3b64a84d843d78efccfee8d05d2a8795984bd88585c6dd10f042fb68",
-      "size": 16479
+      "sha256": "27be8b200c96e83fd6d711f880014afd17f69dd065fc39626fb239d953d9b326",
+      "size": 18041
     },
     {
       "slug": "executive-assistant",
       "name": "Executive Assistant",
       "description": "EA chief-of-staff bot for exec support: conference rooms, interview prep, leadership outreach, Slack channel inventories, sheet↔calendar checks, and birthday/an",
-      "version": "1.0.0",
+      "version": "0.1.0",
       "summary": "Support executive-assistant work: conference rooms, interview prep, leadership outreach, Slack inventories, sheet-calendar reconciliation and birthday/anniversary loads. Do not assume the recipient is an EA, lives in Pacific time or supports a particular executive. Learn role, scope, zone and preferences through skippable setup.",
       "tags": [
         "operations",
@@ -842,14 +842,14 @@
       "license": "MIT",
       "status": "available",
       "download": "https://raw.githubusercontent.com/luispereznet/hireabot/main/packages/executive-assistant.tar.gz",
-      "sha256": "78931ec84948537a3853a5d955323dcf16fe98e2f4b43fc8eeb4b98f04309227",
-      "size": 12865
+      "sha256": "36be04ff8fd03d7ec8dafb1fe79bf59f1e5b5f343c4b86395368da801108acc6",
+      "size": 13916
     },
     {
       "slug": "figma-bro",
       "name": "figma bro",
       "description": "Turns a Figma frame into a build spec, and audits your components, tokens, and motion.",
-      "version": "1.0.0",
+      "version": "0.1.0",
       "summary": "- Turns a Figma frame into a build spec, and audits your components, tokens, and motion. - Builds screens from a brief too, and works from a pasted link when Figma isn't connected. - When memory already holds your prefs I skip the questions and offer what is most useful today. - My weekly library check stays off until you turn it on, and it runs in your timezone.",
       "tags": [
         "design",
@@ -876,14 +876,14 @@
       "license": "MIT",
       "status": "available",
       "download": "https://raw.githubusercontent.com/luispereznet/hireabot/main/packages/figma-bro.tar.gz",
-      "sha256": "5cb6c246cc286cb659d18c47c947b8b7a48fb33593551740cf683251254817da",
-      "size": 12925
+      "sha256": "97eb1a53c5abce595b501beb0818e869776bceb6c621a5ea50b52f1a45922bab",
+      "size": 13736
     },
     {
       "slug": "flora-plant-care-log",
       "name": "Flora: Plant Care Log",
       "description": "Flora keeps a private houseplant care log and weekly reminders.",
-      "version": "1.0.0",
+      "version": "0.1.0",
       "summary": "- Flora keeps a private houseplant care log and weekly reminders. - I am Flora (she/her). - Title: Flora Minder. - Sidebar tag: Plant care.",
       "tags": [
         "personal",
@@ -902,14 +902,14 @@
       "license": "MIT",
       "status": "available",
       "download": "https://raw.githubusercontent.com/luispereznet/hireabot/main/packages/flora-plant-care-log.tar.gz",
-      "sha256": "50bab8331c1c7cf32c01794537f1750dcabcd7c2915f7c8f841fb70312ff83ac",
-      "size": 9512
+      "sha256": "00cd5474b94a07a6739851cfda9ff8388fb998d95d2183c6b43a02f5a19b6721",
+      "size": 10207
     },
     {
       "slug": "game-art-director",
       "name": "Game Art Director",
       "description": "Turns a game concept into a style guide, palettes, and prompt sheets for your image tool.",
-      "version": "1.0.0",
+      "version": "0.1.0",
       "summary": "Art direct one game: write guides, palettes, prompt sheets and sprite/tile specs; slice, pack and audit supplied art. Image generation happens in the user's own tool. Say which side of that line a request falls on before starting; a prompt sheet is not finished art.",
       "tags": [
         "design",
@@ -938,14 +938,14 @@
       "license": "MIT",
       "status": "available",
       "download": "https://raw.githubusercontent.com/luispereznet/hireabot/main/packages/game-art-director.tar.gz",
-      "sha256": "1c442663e4509bd045d0e78ab41176e58ed01a9a6eb139c07baf9430c1a10f4b",
-      "size": 16648
+      "sha256": "fef8eeb6574635d5107fe1375e129f06947c6c7c66615994e1a0c3f06a3741ae",
+      "size": 17960
     },
     {
       "slug": "gtm-account-research",
       "name": "GTM Account Research",
       "description": "Researches one account before a meeting, deal review, or account plan.",
-      "version": "1.0.0",
+      "version": "0.1.0",
       "summary": "JOB BOUNDARY Owns: Deep sourced research and strategy for one named account: company signals, stakeholders, relationship history, competitive context, open questions, and meeting preparation. Does not own: Bulk list creation, reusable voice training, channel execution, pipeline-wide monitoring, or prospect-database ownership. Distinct role: The one-account depth specialist. GTM Prospecting works across lists; Pipeline Pulse watches a portfolio; GTM Daily Digest prioritizes the day.",
       "tags": [
         "sales",
@@ -965,14 +965,14 @@
       "license": "MIT",
       "status": "available",
       "download": "https://raw.githubusercontent.com/luispereznet/hireabot/main/packages/gtm-account-research.tar.gz",
-      "sha256": "452e99549b3de679a3622b029eff4743e8050d6e1e03018cf77d49ba4b17954b",
-      "size": 15557
+      "sha256": "c280e3e191141817a19c5a0bc3995bc59e90197c9aa6d15cbac982627557c276",
+      "size": 16644
     },
     {
       "slug": "gtm-connections",
       "name": "GTM Connections",
       "description": "Finds credible ways into a target account through mutual contacts, past conversations, shared history, and prior meetings.",
-      "version": "1.0.0",
+      "version": "0.1.0",
       "summary": "JOB BOUNDARY Owns: Relationship-path discovery, connector ranking, intro drafts, status, stalled-request follow-through, and outcome learning. Does not own: Cold prospecting, invented mutuals, canonical data ownership, sending asks, or general account research. Distinct role: The warm-access specialist. GTM Prospecting handles cold/list motions; Account Research supplies target context; GTM Tone supplies style.",
       "tags": [
         "sales",
@@ -990,14 +990,14 @@
       "license": "MIT",
       "status": "available",
       "download": "https://raw.githubusercontent.com/luispereznet/hireabot/main/packages/gtm-connections.tar.gz",
-      "sha256": "343c95888b247ba8a975cc052b58881e4c989d9d5ef3347ddd17a7242cf3b0a3",
-      "size": 14833
+      "sha256": "13c3b5f7aa2aa5b0382e0ab18ad279875b3f03b847878e816c688fa232f9068c",
+      "size": 15869
     },
     {
       "slug": "gtm-loop-closer",
       "name": "GTM Loop Closer",
       "description": "Finds promises, follow-ups, and customer details left behind in meetings, email, Slack, CRM, or task tools.",
-      "version": "1.0.0",
+      "version": "0.1.0",
       "summary": "- Finds promises, follow-ups, and customer details left behind in meetings, email, Slack, CRM, or task tools. - Shows the evidence and prepares the reply, task, or update needed to close each loop.",
       "tags": [
         "sales",
@@ -1019,14 +1019,14 @@
       "license": "MIT",
       "status": "available",
       "download": "https://raw.githubusercontent.com/luispereznet/hireabot/main/packages/gtm-loop-closer.tar.gz",
-      "sha256": "4d6ff6eabd6c1ddd2ff4068c8a2f551c4fc85e768ec71a9c8d7ac4c7308dbabb",
-      "size": 14142
+      "sha256": "59a5b30879546e7ddb3fe1a7640cfeebe0da444f1260e31a64cb7a2ad77a6bca",
+      "size": 15138
     },
     {
       "slug": "gtm-prospecting",
       "name": "GTM Prospecting",
       "description": "Turns an ideal customer profile into a focused prospect list, adds useful context, and checks for existing relationships.",
-      "version": "1.0.0",
+      "version": "0.1.0",
       "summary": "- Turns an ideal customer profile into a focused prospect list, adds useful context, and checks for existing relationships. - Drafts first-touch email and LinkedIn messages for your review.",
       "tags": [
         "sales",
@@ -1044,14 +1044,14 @@
       "license": "MIT",
       "status": "available",
       "download": "https://raw.githubusercontent.com/luispereznet/hireabot/main/packages/gtm-prospecting.tar.gz",
-      "sha256": "b4b5cc1d51237b131deb21b656773b4de3d81e4b848508970bb9c7edd409fd0c",
-      "size": 13017
+      "sha256": "465803b927e314acb8ef4f74e02c29a776140d131ea7fc62f4e2cfdf6a0141a2",
+      "size": 13955
     },
     {
       "slug": "haggle-bot",
       "name": "Haggle Bot",
       "description": "Inventories your SaaS spend from Ramp and bills, finds evidence-backed savings (unused seats, duplicates, cheaper alternatives), and drafts vendor counters for ",
-      "version": "1.0.0",
+      "version": "0.1.0",
       "summary": "SaaS procurement savings specialist: competitive quotes first; unused seats, duplicates and zombie SaaS second. Not an ERP administrator or general finance assistant.",
       "tags": [
         "build spend inventory",
@@ -1075,14 +1075,14 @@
       "license": "MIT",
       "status": "available",
       "download": "https://raw.githubusercontent.com/luispereznet/hireabot/main/packages/haggle-bot.tar.gz",
-      "sha256": "8e4d12cce7f65263081adf6ce494796c0907ff6a12797637c1a228476f09e197",
-      "size": 16505
+      "sha256": "9acf859fe29a410bdf6db73845d62e86973bd74c7ef7627fe9ffa082c9f3bb7f",
+      "size": 17958
     },
     {
       "slug": "hiring-signals",
       "name": "Hiring Signals",
       "description": "Tracks hiring activity across selected companies and job sources.",
-      "version": "1.0.0",
+      "version": "0.1.0",
       "summary": "Hiring-trigger specialist: scoped ingestion, normalization, dedupe, fit scoring, account matching, freshness and evidence-backed handoffs. Not general account research, prospect selection or outreach.",
       "tags": [
         "sales",
@@ -1100,14 +1100,14 @@
       "license": "MIT",
       "status": "available",
       "download": "https://raw.githubusercontent.com/luispereznet/hireabot/main/packages/hiring-signals.tar.gz",
-      "sha256": "318392aa6198e60899da502acfcc4de00bedb7ce46511ca0fc650580e15802de",
-      "size": 14919
+      "sha256": "5ee088a46ed2dbbc20f6bfcda359ded2d62ba9f384bfef33d101946443f8b733",
+      "size": 15914
     },
     {
       "slug": "home-robots",
       "name": "Home robots",
       "description": "Control home robots from chat: a Segway Navimow, a Matic vacuum, and other official vacuums, mowers, and Matter robots.",
-      "version": "1.0.0",
+      "version": "0.1.0",
       "summary": "- Control home robots from chat: a Segway Navimow, a Matic vacuum, and other official vacuums, mowers, and Matter robots. - Connect each once, then say start, pause, dock, or how's it doing.",
       "tags": [
         "personal",
@@ -1132,14 +1132,14 @@
       "license": "MIT",
       "status": "available",
       "download": "https://raw.githubusercontent.com/luispereznet/hireabot/main/packages/home-robots.tar.gz",
-      "sha256": "235fae93908dbb68bb4bf3b6dcda2dcd8cda86e51b84e1dec484024760fa4b0a",
-      "size": 8718
+      "sha256": "42ae7829e2a3eaf907127d885259e659d66330e8b9db04716dd12e06695c1987",
+      "size": 9445
     },
     {
       "slug": "imogen",
       "name": "Imogen",
       "description": "Imogen the Impala Image Interpreter writes brief, copyable alt text focused on the most important part of an image, so images are accessible to blind people.",
-      "version": "1.0.0",
+      "version": "0.1.0",
       "summary": "Imogen the Impala Image Interpreter writes brief, copyable alt text so images are accessible to blind people. Use image-alt-text for image description; this is a description workflow, not an image generator.",
       "tags": [
         "design",
@@ -1152,8 +1152,8 @@
       "license": "MIT",
       "status": "available",
       "download": "https://raw.githubusercontent.com/luispereznet/hireabot/main/packages/imogen.tar.gz",
-      "sha256": "35671693bf52bfd78dcb12c357f81262493cdfb8d348adb573acd3b619ad2983",
-      "size": 8093
+      "sha256": "dc31a472192f996d0d64694f272bb10815d8b42ab236094d15e94ce8d2c78a07",
+      "size": 8528
     },
     {
       "slug": "import-bot",
@@ -1161,7 +1161,6 @@
       "description": "Imports Claude Cowork, Codex, ChatGPT, and OpenClaw setups into Hermes expert bots.",
       "version": "0.1.0",
       "summary": "Imports Claude Cowork, Codex, ChatGPT, and OpenClaw setups into Hermes expert bots.",
-      "tags": [],
       "use_cases": [
         "Use when renaming, merging, splitting, or adding experts.",
         "Use when checking an expert before spawn.",
@@ -1187,10 +1186,11 @@
       ],
       "hermes_requires": ">=0.22.5",
       "license": "MIT",
+      "tags": [],
       "status": "available",
       "download": "https://raw.githubusercontent.com/luispereznet/hireabot/main/packages/import-bot.tar.gz",
-      "sha256": "5d20b2275af9a4c8f630f91979cb33071b2892ff8fdd02afea9033da10c83fda",
-      "size": 17844
+      "sha256": "e1954cfd350a2dd64aa0c1ec2435ad36e00de902d83f8e19541d88357c0d3ffb",
+      "size": 19409
     },
     {
       "slug": "last30days",
@@ -1198,7 +1198,6 @@
       "description": "Finds what people actually said about any topic in the last 30 days and writes a cited brief from public sources.",
       "version": "0.1.0",
       "summary": "Finds what people actually said about any topic in the last 30 days and writes a cited brief from public sources.",
-      "tags": [],
       "use_cases": [
         "Use when this is the first run or the user asks to set up last30days again.",
         "Use after setup or when asked about routines: offer the weekly topic rundown.",
@@ -1208,16 +1207,17 @@
       ],
       "hermes_requires": ">=0.22.5",
       "license": "MIT",
+      "tags": [],
       "status": "available",
       "download": "https://raw.githubusercontent.com/luispereznet/hireabot/main/packages/last30days.tar.gz",
-      "sha256": "0ca15e8735e53d4a7274a859f9fd94a3997075217cad326e063bcdcac3d1f392",
-      "size": 19512
+      "sha256": "d85051ba509ddc7dcfe1616d561bc0e9bc8b616d474330b739ca07d61418280a",
+      "size": 20408
     },
     {
       "slug": "lead-pipeline-desk",
       "name": "Lead Pipeline Desk",
       "description": "Scores your inbound leads, merges duplicates, assigns an owner, and flags what's stuck.",
-      "version": "1.0.0",
+      "version": "0.1.0",
       "summary": "- Scores your inbound leads, merges duplicates, assigns an owner, and flags what's stuck. - I check what is already connected before I ask, and a pasted CSV works as well as any connector.",
       "tags": [
         "marketing",
@@ -1242,14 +1242,14 @@
       "license": "MIT",
       "status": "available",
       "download": "https://raw.githubusercontent.com/luispereznet/hireabot/main/packages/lead-pipeline-desk.tar.gz",
-      "sha256": "9ee8eab0b9da410511271b235d0d47066cfae4c7ff890975280e3e0f29b9f3c2",
-      "size": 12552
+      "sha256": "8a872cd1bc8f15c60c86699942512e6c67bbdea24264e00735dec116ac9c28dd",
+      "size": 13510
     },
     {
       "slug": "love",
       "name": "Love ❤️",
       "description": "Takes the admin out of being a good Partner so the attention can go where it counts.",
-      "version": "1.0.0",
+      "version": "0.1.0",
       "summary": "- Takes the admin out of being a good Partner so the attention can go where it counts. - Reminds, researches, and queues dates, tables, and presents; you book, buy, and show up.",
       "tags": [
         "personal"
@@ -1263,14 +1263,14 @@
       "license": "MIT",
       "status": "available",
       "download": "https://raw.githubusercontent.com/luispereznet/hireabot/main/packages/love.tar.gz",
-      "sha256": "4287d1766dcb9723b5b0ec26875d256a341d39869320fb8cb3f851a5f5fdb793",
-      "size": 8446
+      "sha256": "1871bc75c3317b31a7cde2f07cd18ca8aefdbd8bb8e3d67886a3d03b87e23fc5",
+      "size": 9031
     },
     {
       "slug": "luma-pages",
       "name": "Luma Pages",
       "description": "Builds and updates private Luma event pages for field marketers — copy, branding, registration settings, capacity and waitlist, and registration-list hygiene.",
-      "version": "1.0.0",
+      "version": "0.1.0",
       "summary": "- Builds and updates private Luma event pages for field marketers — copy, branding, registration settings, capacity and waitlist, and registration-list hygiene. - Pairs with a Notion docs agent so the event brief and Luma page stay in sync. - Draft only until the owner explicitly OKs publish. Guest-invite outreach and sales sends are out of scope.",
       "tags": [
         "marketing",
@@ -1285,14 +1285,14 @@
       "license": "MIT",
       "status": "available",
       "download": "https://raw.githubusercontent.com/luispereznet/hireabot/main/packages/luma-pages.tar.gz",
-      "sha256": "16fcb51b08eaa85db6bf44c463bb7ba845e6df78eb0fb99e296083a26174dff4",
-      "size": 9682
+      "sha256": "315cca8259987391346cba44c3bcdefb7befd8c3e144df99ba791c1f1fac30c5",
+      "size": 10343
     },
     {
       "slug": "market-researcher",
       "name": "Market Researcher",
       "description": "Monitors your competitors' public websites, ads, marketing, pricing, and positioning on a standing cadence.",
-      "version": "1.0.0",
+      "version": "0.1.0",
       "summary": "- Monitors your competitors' public websites, ads, marketing, pricing, and positioning on a standing cadence. - Collects what changed, flags moves you should know about, and suggests concrete strategy adjustments or pivots.",
       "tags": [
         "marketing",
@@ -1325,14 +1325,14 @@
       "license": "MIT",
       "status": "available",
       "download": "https://raw.githubusercontent.com/luispereznet/hireabot/main/packages/market-researcher.tar.gz",
-      "sha256": "e48df29e3ec422984654d12c9f232f5e05dac029096341c296bd2e30213d1a65",
-      "size": 14926
+      "sha256": "365644cb19680a85b79f481063293ba968b33c3aa93a5b1cf0f401ff02a954bf",
+      "size": 15888
     },
     {
       "slug": "marketing-analyst",
       "name": "Marketing Analyst",
       "description": "Google Ads–first performance analyst: turns exports into weekly and monthly reports with commentary, answers reporting asks with real numbers, and watches spend",
-      "version": "1.0.0",
+      "version": "0.1.0",
       "summary": "- Google Ads–first performance analyst: turns exports into weekly and monthly reports with commentary, answers reporting asks with real numbers, and watches spend against your thresholds so you catch what’s breaking before it burns budget.",
       "tags": [
         "marketing",
@@ -1364,14 +1364,14 @@
       "license": "MIT",
       "status": "available",
       "download": "https://raw.githubusercontent.com/luispereznet/hireabot/main/packages/marketing-analyst.tar.gz",
-      "sha256": "f0ca6a44cf443a4698c50f9160788affa6b2f331400411171dac44de0490980a",
-      "size": 14800
+      "sha256": "3a6012fea625ca2aa7d90353520c53a4d91139e67613a9c45f7345492fb47fb2",
+      "size": 16303
     },
     {
       "slug": "meeting-recap-deck",
       "name": "Meeting Recap Deck",
       "description": "Turns your meeting notes into a recap deck in your slide template.",
-      "version": "1.0.0",
+      "version": "0.1.0",
       "summary": "- Turns your meeting notes into a recap deck in your slide template. - I turn the notes from one meeting into a recap the other side can read: what we heard in their own words, next steps with owners and dates, in your slide template. - When memory already holds your prefs I skip the questions and open on what matters most today. - Notes go to Build the recap deck, a linked deck to Read the slide template, a fix to Update one slide, and no deck at all to Recap note without slides. - Every line traces back to the notes. - My post-meeting draft and Friday roundup stay off until you turn them on, and they run in your timezone.",
       "tags": [
         "sales",
@@ -1398,14 +1398,14 @@
       "license": "MIT",
       "status": "available",
       "download": "https://raw.githubusercontent.com/luispereznet/hireabot/main/packages/meeting-recap-deck.tar.gz",
-      "sha256": "2dc83fbdaa562153387eb920584fd5590b2bb2dbac328208a1a83a6f076ba3ab",
-      "size": 12930
+      "sha256": "549a3b66c7c86ecedae9c0e38afb37fe6f216f0cb1452947ac813617895ddf09",
+      "size": 14052
     },
     {
       "slug": "nightly-audit-engineer",
       "name": "Nightly Audit Engineer",
       "description": "A nightly engineering auditor that researches a whole codebase, then ships one cleanup PR per area.",
-      "version": "1.0.0",
+      "version": "0.1.0",
       "summary": "- A nightly engineering auditor that researches a whole codebase, then ships one cleanup PR per area. - Defaults to 4am and asks when to run before it starts. - Research then spread out: one cleanup per area. Proactively challenge overcomplication; prefer subtraction and existing paths. - Shipped audit definition is paused. Default proposal is 4am, never an assumed approved schedule.",
       "tags": [
         "engineering",
@@ -1421,14 +1421,14 @@
       "license": "MIT",
       "status": "available",
       "download": "https://raw.githubusercontent.com/luispereznet/hireabot/main/packages/nightly-audit-engineer.tar.gz",
-      "sha256": "230990b67cae07c3fea35760a6b041f9631e0c9ee2201cd670882a121bfc237e",
-      "size": 11341
+      "sha256": "0dfe5b5db3cabb723c4e568881f47403fe08a502332e37931123afac052ae668",
+      "size": 12141
     },
     {
       "slug": "nyc-parent",
       "name": "NYC Parent",
       "description": "A family chief of staff for New York City parents.",
-      "version": "1.0.0",
+      "version": "0.1.0",
       "summary": "- A family chief of staff for New York City parents. - It tracks school, calendar, activities, and household logistics, turns incoming information into next actions, and keeps adults in control of spending, messages, and private information.",
       "tags": [
         "personal",
@@ -1453,14 +1453,14 @@
       "license": "MIT",
       "status": "available",
       "download": "https://raw.githubusercontent.com/luispereznet/hireabot/main/packages/nyc-parent.tar.gz",
-      "sha256": "d055e1de5d06c0893e956fe5f8314d228a5a8406ceac626b8b4cb79dc9d0d3f3",
-      "size": 14444
+      "sha256": "f209035e4278c86875d0a857e98232e3826822b25ce59b38187f10542cfc23de",
+      "size": 15968
     },
     {
       "slug": "office-ops-desk",
       "name": "Office Ops Desk",
       "description": "Tracks office shipments, facilities issues, and team birthdays, then writes the digests.",
-      "version": "1.0.0",
+      "version": "0.1.0",
       "summary": "- Tracks office shipments, facilities issues, and team birthdays, then writes the digests. - I run office ops for a small company: shipments, facilities issues, new hire setups, and team celebrations. - When memory already holds your prefs I skip the questions and offer what matters today. - My weekday shipment status, Monday facilities digest, and Friday celebrations look-ahead stay off until you turn them on, and they run in your timezone.",
       "tags": [
         "operations",
@@ -1486,14 +1486,14 @@
       "license": "MIT",
       "status": "available",
       "download": "https://raw.githubusercontent.com/luispereznet/hireabot/main/packages/office-ops-desk.tar.gz",
-      "sha256": "d77512ce0fc0510a860d0fdfc857f7c99e49e3ec443327ef79b4140c10058cea",
-      "size": 13558
+      "sha256": "1ea6f3a9b80de327d88d4d4971d0044289f1354f65c95f66b279a6b5009d3478",
+      "size": 14502
     },
     {
       "slug": "outbound-prospecting",
       "name": "Outbound Prospecting",
       "description": "Finds prospects that match your ideal customer, then drafts a first message to each one.",
-      "version": "1.0.0",
+      "version": "0.1.0",
       "summary": "- Finds prospects that match your ideal customer, then drafts a first message to each one. - Every name is researched on the public web, and nothing sends without your yes. - I build outbound prospect lists from the public web and write the first message to each name. - When memory already holds your prefs I skip the questions and open with the two or three things most useful today. - A fact without a source link stays blank, and I say when a row is thin. - My weekday drafts, Friday recap, and Monday list top-up stay off until you turn them on, and they run in your timezone.",
       "tags": [
         "sales",
@@ -1521,14 +1521,14 @@
       "license": "MIT",
       "status": "available",
       "download": "https://raw.githubusercontent.com/luispereznet/hireabot/main/packages/outbound-prospecting.tar.gz",
-      "sha256": "0d3d69755e694a5c75472a8f5373a1752aed2ca814ffe35eafd4d6b0e125c6eb",
-      "size": 13481
+      "sha256": "f0b3e5ade910fea42e8b38515f8e8d123027dccbf25f35d0198fba039f45f6ae",
+      "size": 14719
     },
     {
       "slug": "overheard",
       "name": "Overheard",
       "description": "Watches Reddit, Hacker News, news sites, and X for third-party mentions of your name, brand, and URLs, then sends a short weekday digest when something clears t",
-      "version": "1.0.0",
+      "version": "0.1.0",
       "summary": "- Watches Reddit, Hacker News, news sites, and X for third-party mentions of your name, brand, and URLs, then sends a short weekday digest when something clears the bar.",
       "tags": [
         "not listed (no category shown on the marketplace)",
@@ -1544,14 +1544,14 @@
       "license": "MIT",
       "status": "available",
       "download": "https://raw.githubusercontent.com/luispereznet/hireabot/main/packages/overheard.tar.gz",
-      "sha256": "69c9ead6ae050d064044c36ba94556b78fd7ecdebee6b8966607a6ce066e41c3",
-      "size": 10230
+      "sha256": "c1a3f903870dd463853aeabf8ac8c85d8a87027d3c98a74d0f5c444470f30a30",
+      "size": 10935
     },
     {
       "slug": "paid-media-report-desk",
       "name": "Paid Media Report Desk",
       "description": "Turns your Google Ads, Meta, and LinkedIn exports into one weekly report with commentary.",
-      "version": "1.0.0",
+      "version": "0.1.0",
       "summary": "- Turns your Google Ads, Meta, and LinkedIn exports into one weekly report with commentary. - When memory already holds your prefs I skip the questions and offer the two or three things useful today.",
       "tags": [
         "marketing",
@@ -1575,14 +1575,14 @@
       "license": "MIT",
       "status": "available",
       "download": "https://raw.githubusercontent.com/luispereznet/hireabot/main/packages/paid-media-report-desk.tar.gz",
-      "sha256": "c5d363f94288405e1b364ff5e45602e98041e1faa3ebf2d29b425e8eb355c46d",
-      "size": 13027
+      "sha256": "bc982eeb0bf6a957b7636f9d30dbe6e1a74771c9c00feb6b9fd1e3c2a89abd3c",
+      "size": 13915
     },
     {
       "slug": "partnerships-call-coach",
       "name": "Partnerships Call Coach",
       "description": "Pitch and delivery coach for partnership, sponsorship, and high-stakes discovery calls.",
-      "version": "1.0.0",
+      "version": "0.1.0",
       "summary": "- Pitch and delivery coach for partnership, sponsorship, and high-stakes discovery calls. - Reviews real call transcripts and returns sharp, evidence-based coaching — what landed, what to tighten, and exact phrasing upgrades — so feedback compounds over time.",
       "tags": [
         "sales"
@@ -1594,14 +1594,14 @@
       "license": "MIT",
       "status": "available",
       "download": "https://raw.githubusercontent.com/luispereznet/hireabot/main/packages/partnerships-call-coach.tar.gz",
-      "sha256": "9073dd66cac1d9924397e51ff01d7782473af1ca505d378ae7672bd00073e029",
-      "size": 8612
+      "sha256": "53b2e7a2d542e75fd91c4f2857d5ce1037cbcf9800e095e21236e231abdebc6f",
+      "size": 9220
     },
     {
       "slug": "performance-marketer",
       "name": "Performance Marketer",
       "description": "A performance marketer that turns Product Marketer ad copy into paused Maximize-clicks Google Ads Search shells for messaging tests — review sheets first, then ",
-      "version": "1.0.0",
+      "version": "0.1.0",
       "summary": "- A performance marketer that turns Product Marketer ad copy into paused Maximize-clicks Google Ads Search shells for messaging tests — review sheets first, then traffic with live screenshots, no spend until you say so.",
       "tags": [
         "marketing",
@@ -1629,8 +1629,8 @@
       "license": "MIT",
       "status": "available",
       "download": "https://raw.githubusercontent.com/luispereznet/hireabot/main/packages/performance-marketer.tar.gz",
-      "sha256": "5341a51aaa54b922c22af5d246bfa128c4112c193c89830a72c96fef60971ad6",
-      "size": 13968
+      "sha256": "bbda290feced4fe56e3f35c63cb4e7bec28fb3411e1e531497ca363ba1495736",
+      "size": 15212
     },
     {
       "slug": "pfp-bot",
@@ -1638,7 +1638,6 @@
       "description": "Turns a photo into a Playbook Icon that keeps hair, colors, and up to three signature features.",
       "version": "0.1.0",
       "summary": "Turns a photo into a Playbook Icon that keeps hair, colors, and up to three signature features.",
-      "tags": [],
       "use_cases": [
         "Use when memories/USER.md is missing: first-chat setup.",
         "Use when the user picks Upscale, Edit, or Try again.",
@@ -1652,16 +1651,17 @@
       ],
       "hermes_requires": ">=0.22.5",
       "license": "MIT",
+      "tags": [],
       "status": "available",
       "download": "https://raw.githubusercontent.com/luispereznet/hireabot/main/packages/pfp-bot.tar.gz",
-      "sha256": "735b06b2ca693153a2ad6338b5cf67a99aa5ec9cbe52352cac418c5a21ec10f5",
-      "size": 13958
+      "sha256": "70c2509d5f7069e5925b802c276b90cea9b57912a1f95081719a765d5afe2f2b",
+      "size": 14976
     },
     {
       "slug": "pipeline-pulse",
       "name": "Pipeline Pulse",
       "description": "Scans your full pipeline for movement, stale next steps, forecast risk, and CRM gaps.",
-      "version": "1.0.0",
+      "version": "0.1.0",
       "summary": "- Scans your full pipeline for movement, stale next steps, forecast risk, and CRM gaps. - Shows what changed across the book and drafts the updates needed to keep the forecast honest.",
       "tags": [
         "sales",
@@ -1679,14 +1679,14 @@
       "license": "MIT",
       "status": "available",
       "download": "https://raw.githubusercontent.com/luispereznet/hireabot/main/packages/pipeline-pulse.tar.gz",
-      "sha256": "adef9fa14f81b955244c4081059cc219d95d26816d7863b3cf7f9a19f96118c7",
-      "size": 13858
+      "sha256": "76f8668b1cf5f5c9ad878c61fe73085e3e2fb842aab8af831fd71b0a7883a6e4",
+      "size": 14674
     },
     {
       "slug": "pitch-deck-coach",
       "name": "Pitch Deck Coach",
       "description": "Reviews a pitch deck and reports what an investor is likely to understand, believe, question, and remember, then helps strengthen the story, evidence, and slide",
-      "version": "1.0.0",
+      "version": "0.1.0",
       "summary": "- Reviews a pitch deck and reports what an investor is likely to understand, believe, question, and remember, then helps strengthen the story, evidence, and slides.",
       "tags": [
         "sales",
@@ -1705,14 +1705,14 @@
       "license": "MIT",
       "status": "available",
       "download": "https://raw.githubusercontent.com/luispereznet/hireabot/main/packages/pitch-deck-coach.tar.gz",
-      "sha256": "279d204567082352948aa3ccdcede12159159b1d615057b8ee36549565f09180",
-      "size": 12704
+      "sha256": "11b32c2c811cf1a874134659f253d00690b1a939605be38df5746c32d291f846",
+      "size": 13406
     },
     {
       "slug": "pm-bot",
       "name": "PM bot",
       "description": "Acts as your PM.",
-      "version": "1.0.0",
+      "version": "0.1.0",
       "summary": "- Acts as your PM. - Writes the dated cut: what's in, what's out, and how you'll know it's done. - Engineering doesn't start until you approve it. - I own the living PRD cut for the product instance. - Specs stay drafts until the owner says ship. - If Eng or QA teammates are not set yet, still produce cuts and say: hand this cut to your Eng when ready.",
       "tags": [
         "product",
@@ -1730,14 +1730,14 @@
       "license": "MIT",
       "status": "available",
       "download": "https://raw.githubusercontent.com/luispereznet/hireabot/main/packages/pm-bot.tar.gz",
-      "sha256": "48a2db9d609b49b035c3ec4c64f7ccd605acef4a7bec2f20f32bc9b084695a2f",
-      "size": 10494
+      "sha256": "e646e3f60155ab8a9e9270e45ea27a38828ade142de9f14eafdc3e0bbc5213f5",
+      "size": 11285
     },
     {
       "slug": "product-idea-stress-test",
       "name": "Product Idea Stress Test",
       "description": "Investigates a product or startup idea for founders.",
-      "version": "1.0.0",
+      "version": "0.1.0",
       "summary": "- Investigates a product or startup idea for founders. - Surfaces what has to be true, evidence for and against, the assumption most likely to kill it, and what to test next. - I am a rigorous product and startup idea investigator. - My job is to help a founder decide how much additional time, money, and attention an idea currently deserves. - I turn ideas into falsifiable hypotheses, investigate what reality currently says, find evidence for and against the thesis, identify the uncertainty most likely to change the decision, and recommend the highest-information effici",
       "tags": [
         "product",
@@ -1754,14 +1754,14 @@
       "license": "MIT",
       "status": "available",
       "download": "https://raw.githubusercontent.com/luispereznet/hireabot/main/packages/product-idea-stress-test.tar.gz",
-      "sha256": "258f3f74e1e99021ab91869c74a1bc8e4d5db8fe978090898540e84407424689",
-      "size": 11450
+      "sha256": "bd4cb2ee71462d22928a9881022a3609d07ef92a24199b957e848a6d46d0c8e5",
+      "size": 12134
     },
     {
       "slug": "product-marketer",
       "name": "Product Marketer",
       "description": "Learns your product, brand, tone, and positioning principles; uses competitive research to sharpen how you stand out; drafts and crafts copy against those princ",
-      "version": "1.0.0",
+      "version": "0.1.0",
       "summary": "- Learns your product, brand, tone, and positioning principles; uses competitive research to sharpen how you stand out; drafts and crafts copy against those principles; and hands off landing-page and Ads copy to the rest of the marketing team.",
       "tags": [
         "marketing",
@@ -1791,14 +1791,14 @@
       "license": "MIT",
       "status": "available",
       "download": "https://raw.githubusercontent.com/luispereznet/hireabot/main/packages/product-marketer.tar.gz",
-      "sha256": "88c5fc617d4c56bd25820a37e8b62bc4bc51e880c387c47ad6183295a2d61dd5",
-      "size": 14530
+      "sha256": "7e267e6b599b8669ac26f345bd35fde120c067e0b6f760b9de628366a4c624c2",
+      "size": 15460
     },
     {
       "slug": "product-support-inbox-assistant",
       "name": "Product Support Inbox Assistant",
       "description": "Helps you find and draft answers to product questions.",
-      "version": "1.0.0",
+      "version": "0.1.0",
       "summary": "- Helps you find and draft answers to product questions.",
       "tags": [
         "sales",
@@ -1811,14 +1811,14 @@
       "license": "MIT",
       "status": "available",
       "download": "https://raw.githubusercontent.com/luispereznet/hireabot/main/packages/product-support-inbox-assistant.tar.gz",
-      "sha256": "c83fd49489b1f6f044e877d1117c73b6cdad60772a33e47dc04b014481d4dbe2",
-      "size": 8759
+      "sha256": "6d4a7941d207900081e3d7b58885f7794d76894583e2be67af81c97f7f5db358",
+      "size": 9269
     },
     {
       "slug": "project-manager",
       "name": "Project Manager",
       "description": "Marketing project manager that coordinates research, positioning, landing pages, ads, and analytics across specialist bots — with screenshot check-ins and human",
-      "version": "1.0.0",
+      "version": "0.1.0",
       "summary": "- Marketing project manager that coordinates research, positioning, landing pages, ads, and analytics across specialist bots — with screenshot check-ins and human gates on merge and spend.",
       "tags": [
         "marketing",
@@ -1845,8 +1845,8 @@
       "license": "MIT",
       "status": "available",
       "download": "https://raw.githubusercontent.com/luispereznet/hireabot/main/packages/project-manager.tar.gz",
-      "sha256": "a25558c38ffdcf65eb9f78f520dc884d1c9b8eec99539b5c0539410881bb39d3",
-      "size": 13477
+      "sha256": "936f04d270c94a492367c3512ea73e80133a08cc81d7fe5288c2c21e95570ef3",
+      "size": 14685
     },
     {
       "slug": "projects-manager",
@@ -1854,7 +1854,6 @@
       "description": "Runs your team's projects from your own Notion: one row per project, an optional Slack channel per project, and tasks your specialist Hermes bots claim. You decide, agents execute, and it never does the specialist work itself.",
       "version": "0.1.0",
       "summary": "Runs your team's projects from your own Notion: one row per project, an optional Slack channel per project, and tasks your specialist Hermes bots claim. You decide, agents execute, and it never does the specialist work itself.",
-      "tags": [],
       "use_cases": [
         "Use when memories/USER.md is missing: first-chat setup.",
         "Use when a task is Blocked: ping the user with its Note and wait.",
@@ -1865,10 +1864,11 @@
       ],
       "hermes_requires": ">=0.22.5",
       "license": "MIT",
+      "tags": [],
       "status": "available",
       "download": "https://raw.githubusercontent.com/luispereznet/hireabot/main/packages/projects-manager.tar.gz",
-      "sha256": "bd8f0b1ce72d6bd7ec1deb01298421e065dc99ce7a4f6df24ec95745f962ecad",
-      "size": 13068
+      "sha256": "baaadd96e0a7d36b761108879154578e922a9488b9f7635cdf6f3d600087438e",
+      "size": 13857
     },
     {
       "slug": "proto-bot",
@@ -1876,7 +1876,6 @@
       "description": "Turns daily ideas into draft pull requests in your real app, with screenshots, a short video, mocks, and media.",
       "version": "0.1.0",
       "summary": "Turns daily ideas into draft pull requests in your real app, with screenshots, a short video, mocks, and media.",
-      "tags": [],
       "use_cases": [
         "Use when memories/USER.md is missing: first-chat setup.",
         "Use after setup or when asked about routines: offer the craft scan.",
@@ -1893,16 +1892,17 @@
       ],
       "hermes_requires": ">=0.22.5",
       "license": "MIT",
+      "tags": [],
       "status": "available",
       "download": "https://raw.githubusercontent.com/luispereznet/hireabot/main/packages/proto-bot.tar.gz",
-      "sha256": "a531abe08b21656ee18abe0b3f61b9adea6e48249375d5d9899ff024ab03ab39",
-      "size": 22235
+      "sha256": "2e0ac11dd85f625665d4fd91701b9d195346c90558401328c8d2f16a0ac3434f",
+      "size": 23501
     },
     {
       "slug": "qa-bot",
       "name": "QA bot",
       "description": "Acts as your QA on the live deploy: runs the acceptance checklist and says pass or fail before you ship.",
-      "version": "1.0.0",
+      "version": "0.1.0",
       "summary": "Acts as independent QA on the live deploy: turn a binding PM cut into a canonical acceptance pack, run BLOCK versus WARN checks, and emit STATUS PASS | FAIL | BLOCKED before shipping. Eng CI CLEAN is not AC PASS. Never soft-pass a BLOCK item. Never edit expected results to go green. Eng and QA are separate seats.",
       "tags": [
         "engineering",
@@ -1920,14 +1920,14 @@
       "license": "MIT",
       "status": "available",
       "download": "https://raw.githubusercontent.com/luispereznet/hireabot/main/packages/qa-bot.tar.gz",
-      "sha256": "cdb82ad6d73c05df64b8ba18f254bee9b040d7f06e3063a2cb81b938242aec91",
-      "size": 13434
+      "sha256": "24ca1c20d980e8b4377f149ccbafd28794f43459ea0b31668985aaba998228d4",
+      "size": 14366
     },
     {
       "slug": "recruiting-coordinator",
       "name": "Recruiting Coordinator",
       "description": "Schedules interview loops, preps your interviewers, and chases what's stalled.",
-      "version": "1.0.0",
+      "version": "0.1.0",
       "summary": "- Schedules interview loops, preps your interviewers, and chases what's stalled. - I coordinate hiring for one recruiter or hiring manager: loops scheduled, interviewers prepped, follow-ups chased.",
       "tags": [
         "recruiting & people",
@@ -1959,14 +1959,14 @@
       "license": "MIT",
       "status": "available",
       "download": "https://raw.githubusercontent.com/luispereznet/hireabot/main/packages/recruiting-coordinator.tar.gz",
-      "sha256": "d9be8d63b47aa5994b4c9758cb6597f9b485076c14c3434a262039e6cb4972a2",
-      "size": 15518
+      "sha256": "81c6a21eaadb2ad8e9524722e5074c5ad1f4c4075f773063a734f0b85554654a",
+      "size": 16584
     },
     {
       "slug": "researchy",
       "name": "Researchy",
       "description": "A research and fact-check desk that runs every pass with live web search.",
-      "version": "1.0.0",
+      "version": "0.1.0",
       "summary": "- A research and fact-check desk that runs every pass with live web search. - For anyone who needs sourced, dated claims instead of a training-only answer.",
       "tags": [
         "engineering",
@@ -1979,14 +1979,14 @@
       "license": "MIT",
       "status": "available",
       "download": "https://raw.githubusercontent.com/luispereznet/hireabot/main/packages/researchy.tar.gz",
-      "sha256": "3dd84aee5b673b17d0fab7492f2d35bd766bb7b9c1fcfd5796879fbe7d851d26",
-      "size": 8159
+      "sha256": "75740fc35bd3358af7822364c517903ad1c86dd1ab8f4b825cf3ad59f38e13e4",
+      "size": 8742
     },
     {
       "slug": "sales-call-coach",
       "name": "Sales Call Coach",
       "description": "Scores your sales calls and tells you what to fix before the next one.",
-      "version": "1.0.0",
+      "version": "0.1.0",
       "summary": "Coach one sales rep on their own completed calls. Score transcripts or accessible recordings, identify decisive moments, and build one habit at a time. Not a deal tracker or CRM; never join a live call.",
       "tags": [
         "sales",
@@ -2015,14 +2015,14 @@
       "license": "MIT",
       "status": "available",
       "download": "https://raw.githubusercontent.com/luispereznet/hireabot/main/packages/sales-call-coach.tar.gz",
-      "sha256": "ec16f901331c368fb64fad6360f995bca509459d6be6fdaf2ec699a7876b5cb4",
-      "size": 16859
+      "sha256": "7ad761fc8a2985fc068ca4a92aebd2c218fd90f701cc01b8e371dc6661d64dae",
+      "size": 18124
     },
     {
       "slug": "sell-bot",
       "name": "Sell Bot",
       "description": "Works your whole customer journey: outreach in your voice, booked calls with prep and follow-ups, proposals and contracts, then activation, support and billing ",
-      "version": "1.0.0",
+      "version": "0.1.0",
       "summary": "- Works your whole customer journey: outreach in your voice, booked calls with prep and follow-ups, proposals and contracts, then activation, support and billing answers, and expansion. - Drafts everything for your review and sends only what you approve, one message at a time.",
       "tags": [
         "sales",
@@ -2065,14 +2065,14 @@
       "license": "MIT",
       "status": "available",
       "download": "https://raw.githubusercontent.com/luispereznet/hireabot/main/packages/sell-bot.tar.gz",
-      "sha256": "4ccbdc8b4d66de27dc7969407cb95bd75d1b667dc74694bbe5cf77788b943e63",
-      "size": 16227
+      "sha256": "c9cd1df149330b673a3f2b516bc73192dfc987153b469952fbd595f099a02e6f",
+      "size": 17669
     },
     {
       "slug": "seo-aeo-desk",
       "name": "SEO & AEO Desk",
       "description": "Turns your keywords into content ideas and writer-ready briefs for search and AI answers.",
-      "version": "1.0.0",
+      "version": "0.1.0",
       "summary": "- Turns your keywords into content ideas and writer-ready briefs for search and AI answers. - Works from a pasted keyword list or your Search Console. - I run the search side of your content program. - I find what people search and ask, rank the opportunities, and write briefs your writer can work from. - When memory already holds your prefs I skip the questions and offer the two or three things most useful today.",
       "tags": [
         "marketing",
@@ -2098,14 +2098,14 @@
       "license": "MIT",
       "status": "available",
       "download": "https://raw.githubusercontent.com/luispereznet/hireabot/main/packages/seo-aeo-desk.tar.gz",
-      "sha256": "214fcf518a4d0b9ed97bc4a5e6c3722e224d4e77cebcda5c627a4728fe709dc3",
-      "size": 13295
+      "sha256": "ccd992e74c13314f2f9bbcf0719c2eb12a0659487ae40b0c8f4e1fbd700dcf70",
+      "size": 14596
     },
     {
       "slug": "sequencer",
       "name": "Sequencer",
       "description": "Runs your outbound sequencer as a staff function.",
-      "version": "1.0.0",
+      "version": "0.1.0",
       "summary": "- Runs your outbound sequencer as a staff function. - Connects your tools, learns voice and ICP from Gmail and CRM, keeps sequence state on a sheet, and stages drafts you send.",
       "tags": [
         "sales",
@@ -2136,14 +2136,14 @@
       "license": "MIT",
       "status": "available",
       "download": "https://raw.githubusercontent.com/luispereznet/hireabot/main/packages/sequencer.tar.gz",
-      "sha256": "bcf6bd5d2f5971dc16c72b45d1217788bc99b65d4e9055015b6ac8a6a9a8ff89",
-      "size": 14776
+      "sha256": "5d4fa54f239411d77043fdde60b9f081b5e6c25ce12a83ad14dfd42df5550df7",
+      "size": 15759
     },
     {
       "slug": "signal-prospector",
       "name": "Signal Prospector",
       "description": "Finds the accounts and people in your CRM and product data that just showed intent, ranks them, and drafts the first touch.",
-      "version": "1.0.0",
+      "version": "0.1.0",
       "summary": "- Finds the accounts and people in your CRM and product data that just showed intent, ranks them, and drafts the first touch. - Runs on a schedule, explains every signal, and nothing sends without your yes.",
       "tags": [
         "sales",
@@ -2163,14 +2163,14 @@
       "license": "MIT",
       "status": "available",
       "download": "https://raw.githubusercontent.com/luispereznet/hireabot/main/packages/signal-prospector.tar.gz",
-      "sha256": "1a6ddf90cdb7ae3a50da28afb90fe29f7872ef5bfeca1107422a68fb070ffcc7",
-      "size": 10792
+      "sha256": "ab6bbc68d411ae75da8ede3bb66b2597167e3593e141e12865c3a6e3a947dacf",
+      "size": 11647
     },
     {
       "slug": "site-audit",
       "name": "Site Audit",
       "description": "SEO + content + speed + a11y + CRO + schema audit.",
-      "version": "1.0.0",
+      "version": "0.1.0",
       "summary": "- SEO + content + speed + a11y + CRO + schema audit. - Scored, P0/P1/P2, evidence URLs. - Monthly diff.",
       "tags": [
         "marketing"
@@ -2183,14 +2183,14 @@
       "license": "MIT",
       "status": "available",
       "download": "https://raw.githubusercontent.com/luispereznet/hireabot/main/packages/site-audit.tar.gz",
-      "sha256": "76333f3bf1afea8e0ef825e0c9436f8bcd0e2bb2f73804cf58741ad963cad09d",
-      "size": 8711
+      "sha256": "8d374330e1d6131732cd220b55a39fbfc577a1e085cd12383ec211c88ff5e3c1",
+      "size": 9268
     },
     {
       "slug": "skippy",
       "name": "skippy",
       "description": "A San Francisco street-cleaning assistant.",
-      "version": "1.0.0",
+      "version": "0.1.0",
       "summary": "- A San Francisco street-cleaning assistant. - Paste a Maps pin, address, or intersection and it tells you the next posted sweep on that curb. - Uses public city data.",
       "tags": [
         "personal",
@@ -2203,14 +2203,14 @@
       "license": "MIT",
       "status": "available",
       "download": "https://raw.githubusercontent.com/luispereznet/hireabot/main/packages/skippy.tar.gz",
-      "sha256": "484ad7f96ad9788034750c19cbe59294975ec22e612e9fc723bc29e208918234",
-      "size": 7887
+      "sha256": "1b102b85f8927399fe0b7c7b42ff594e8c8054cc4dd04e85afcbcb07a4f4cebf",
+      "size": 8446
     },
     {
       "slug": "stalk-bot",
       "name": "Stalk Bot",
       "description": "Signs up for your competitors' newsletters and products under its own research email, walks their onboarding on video, and watches their site, pricing, changelo",
-      "version": "1.0.0",
+      "version": "0.1.0",
       "summary": "- Signs up for your competitors' newsletters and products under its own research email, walks their onboarding on video, and watches their site, pricing, changelog, jobs, and X.",
       "tags": [
         "product",
@@ -2262,14 +2262,14 @@
       "license": "MIT",
       "status": "available",
       "download": "https://raw.githubusercontent.com/luispereznet/hireabot/main/packages/stalk-bot.tar.gz",
-      "sha256": "733182e74b211517dc6e078949a10b6a249ea6e7a6bc452cff82318d2ede1a85",
-      "size": 17958
+      "sha256": "0358e4f9bab0d9265ce54bafb17544c3d6b382adefbed2210dc55d41b6489f89",
+      "size": 19922
     },
     {
       "slug": "startup-qa-bot",
       "name": "Startup QA Bot",
       "description": "Walks your product every weekday in its own test account and tells you what shipped, what got unshipped, what broke (with repro steps and screenshots), and whic",
-      "version": "1.0.0",
+      "version": "0.1.0",
       "summary": "- Walks your product every weekday in its own test account and tells you what shipped, what got unshipped, what broke (with repro steps and screenshots), and which calls need you.",
       "tags": [
         "product",
@@ -2291,14 +2291,14 @@
       "license": "MIT",
       "status": "available",
       "download": "https://raw.githubusercontent.com/luispereznet/hireabot/main/packages/startup-qa-bot.tar.gz",
-      "sha256": "34a1a9de5be52db2a7eef77ba7721758ac8d69c999069a984caa765b4a57d8bf",
-      "size": 11537
+      "sha256": "e4302b45a061c85dc9f759c4915bb76f6d11cf3797f840f4b65d74921c149ae1",
+      "size": 12312
     },
     {
       "slug": "stills-clips-desk",
       "name": "Stills & Clips Desk",
       "description": "Pulls stills, thumbnails, and short clips out of your footage, sized for where they go.",
-      "version": "1.0.0",
+      "version": "0.1.0",
       "summary": "- Pulls stills, thumbnails, and short clips out of your footage, sized for where they go. - Cleans up screenshots for docs too, and writes the caption and alt text. - When memory already holds your prefs I skip the questions and offer the two or three things most useful today. - My weekly pull queue stays off until you turn it on, and it runs in your timezone.",
       "tags": [
         "marketing",
@@ -2320,14 +2320,14 @@
       "license": "MIT",
       "status": "available",
       "download": "https://raw.githubusercontent.com/luispereznet/hireabot/main/packages/stills-clips-desk.tar.gz",
-      "sha256": "8156e12e76738d9895f6ff42dca118b0ae359e712cc09b133643c1f9b570f556",
-      "size": 11675
+      "sha256": "bcd95947c0a109cec919a10d6fa35de7457f8638936ba9124eeaa7bbc8662a83",
+      "size": 12484
     },
     {
       "slug": "swe",
       "name": "SWE",
       "description": "Software engineer bot that implements a code change and verifies it.",
-      "version": "1.0.0",
+      "version": "0.1.0",
       "summary": "SWE is a software engineering assistant that implements a code change and verifies it, writes code, triages issues and reviews production health using authorized evidence. This is a portable role adaptation, not an affiliation or preconnected engineering service.",
       "tags": [
         "engineering",
@@ -2347,14 +2347,14 @@
       "license": "MIT",
       "status": "available",
       "download": "https://raw.githubusercontent.com/luispereznet/hireabot/main/packages/swe.tar.gz",
-      "sha256": "d15fd7b26a8eaea7eeec52726c81d750ea47ed6d8d327c102d4fac8dcdfaa977",
-      "size": 10452
+      "sha256": "ac3cec95a23dec93d87ed23c35cb47c380275c8cc9ad225576dc70d16904f73f",
+      "size": 11158
     },
     {
       "slug": "talent-discovery",
       "name": "Talent Discovery",
       "description": "Finds candidates for open roles that match your criteria and aren't already in your ATS.",
-      "version": "1.0.0",
+      "version": "0.1.0",
       "summary": "- Finds candidates for open roles that match your criteria and aren't already in your ATS. - I source candidates for one open role at a time and keep a shortlist you can act on. - When memory already holds your bar, I skip the questions and open with the next batch. - A pasted role goes to Read the role, sourcing to Source a batch, a benchmark name to Lookalike search, a pipeline list to Dedupe against your pipeline, a name you like to Draft outreach, and triage to Shortlist review. - I only use what you give me and what a person published about their own work, with a source link on every claim. - My daily batch and weekly recap stay off until you say yes, and they run in your timezone.",
       "tags": [
         "recruiting & people",
@@ -2383,14 +2383,14 @@
       "license": "MIT",
       "status": "available",
       "download": "https://raw.githubusercontent.com/luispereznet/hireabot/main/packages/talent-discovery.tar.gz",
-      "sha256": "3be64a7aab8e89be8a26be5e97cad291071888c6bb36fc1f38a9ef244a29b8d0",
-      "size": 14756
+      "sha256": "a8da76ad0c2347840c686b426fff97b747db5d9e6810a4a56a72087d4c308e5b",
+      "size": 15651
     },
     {
       "slug": "tech-demos",
       "name": "Tech Demos",
       "description": "Weekday X-bookmark scout that picks one new library to demo, asks for approval, then plans and builds it in a sticky monorepo with a cloud coding agent.",
-      "version": "1.0.0",
+      "version": "0.1.0",
       "summary": "- Weekday X-bookmark scout that picks one new library to demo, asks for approval, then plans and builds it in a sticky monorepo with a cloud coding agent. - For anyone who wants a daily public-tech playground, not a changelog digest.",
       "tags": [
         "personal",
@@ -2404,14 +2404,14 @@
       "license": "MIT",
       "status": "available",
       "download": "https://raw.githubusercontent.com/luispereznet/hireabot/main/packages/tech-demos.tar.gz",
-      "sha256": "c98af7d943e8e1313021e53767f24d67cd134390a6ced6c5fb73d22c16205f17",
-      "size": 8928
+      "sha256": "10ba0dd99c759b97590586ab986c37cfd0da19cfca147c0f5ce126fb586d5613",
+      "size": 9483
     },
     {
       "slug": "the-morning-newspaper",
       "name": "The Morning Newspaper",
       "description": "Puts together a personal morning newspaper for you to read each day. Early alpha.",
-      "version": "1.0.0",
+      "version": "0.1.0",
       "summary": "- The Morning Newspaper",
       "tags": [
         "personal",
@@ -2424,8 +2424,8 @@
       "license": "MIT",
       "status": "available",
       "download": "https://raw.githubusercontent.com/luispereznet/hireabot/main/packages/the-morning-newspaper.tar.gz",
-      "sha256": "fd55e0ac6b9c6409c196fd9dee4050b9bd49a629dfba3cce23a03ef71d10560c",
-      "size": 7688
+      "sha256": "c1d21db4088d80822bc1cd335542c52f172a7329e509c1beb3627c3e24c4ddc4",
+      "size": 8259
     },
     {
       "slug": "tinkabot",
@@ -2433,7 +2433,6 @@
       "description": "Wraps an HTTP API or OpenAPI/spec into a local MCP server plus Hermes skills. Proves it locally. Publishes only when you name a destination.",
       "version": "0.1.0",
       "summary": "Wraps an HTTP API or OpenAPI/spec into a local MCP server plus Hermes skills. Proves it locally. Publishes only when you name a destination.",
-      "tags": [],
       "use_cases": [
         "Use when memories/USER.md is missing: first-chat setup.",
         "Use when proving a wrap loads locally: validate, run MCP, record what loaded.",
@@ -2442,16 +2441,17 @@
       ],
       "hermes_requires": ">=0.22.5",
       "license": "MIT",
+      "tags": [],
       "status": "available",
       "download": "https://raw.githubusercontent.com/luispereznet/hireabot/main/packages/tinkabot.tar.gz",
-      "sha256": "2a43f464b65290657d368641a3df94f0e8b94ec07cfa9af15950c572e18590b3",
-      "size": 9407
+      "sha256": "d4b76d2331828c9c698706754dc4fa91a604863cb226a2f60b8fcea68acbc51d",
+      "size": 10116
     },
     {
       "slug": "tradbot",
       "name": "Tradbot",
       "description": "Watches your personal email and family schedule so school forms, bills, and RSVPs don't slip.",
-      "version": "1.0.0",
+      "version": "0.1.0",
       "summary": "- Watches your personal email and family schedule so school forms, bills, and RSVPs don't slip. - Drafts the reply, catches the pickup clash, and never sends without you. - I watch your personal email and family schedule so the household things don't slip: school forms, family plans and RSVPs, bills and renewals, appointments, and who is doing pickup.",
       "tags": [
         "not listed (no category shown on the marketplace)",
@@ -2473,14 +2473,14 @@
       "license": "MIT",
       "status": "available",
       "download": "https://raw.githubusercontent.com/luispereznet/hireabot/main/packages/tradbot.tar.gz",
-      "sha256": "c4417885a7fd5cc9027fcfb0e416cbc6962aaffdf0c41ac8ff95eb3bb0bcbb07",
-      "size": 15154
+      "sha256": "936a665918e3143460884a243f7de194365cc7ea0747d05b6d2a45f4082ba050",
+      "size": 16356
     },
     {
       "slug": "video-edit-desk",
       "name": "Video Edit Desk",
       "description": "Turns uploaded footage into cut clips, burned-in captions, and platform-sized exports.",
-      "version": "1.0.0",
+      "version": "0.1.0",
       "summary": "- Turns uploaded footage into cut clips, burned-in captions, and platform-sized exports. - I cut video on my own computer. - Upload footage and I trim it, pull clips out of it, resize it for a platform, burn in captions, and hand back a transcript. - When memory already holds your prefs I skip the questions and offer the two or three things most useful today. - I say when the footage is too rough to trust. - My weekly cut queue stays off until you turn it on, and it runs in your timezone.",
       "tags": [
         "marketing",
@@ -2502,14 +2502,14 @@
       "license": "MIT",
       "status": "available",
       "download": "https://raw.githubusercontent.com/luispereznet/hireabot/main/packages/video-edit-desk.tar.gz",
-      "sha256": "546e85ed261ecaa545b68bd647597901a3e4086c1430e5486be5e654184631bf",
-      "size": 11717
+      "sha256": "33a9356878e0ccbb76023e20c467f92d1f5b2f0c6f3be49f9676661f31126dfa",
+      "size": 12562
     },
     {
       "slug": "video-editor",
       "name": "Video Editor",
       "description": "Edits short vertical talking-head videos from your raw footage: picks the best takes, captions what you actually said, and adds B-roll, motion graphics, and mus",
-      "version": "1.0.0",
+      "version": "0.1.0",
       "summary": "- Edits short vertical talking-head videos from your raw footage: picks the best takes, captions what you actually said, and adds B-roll, motion graphics, and music.",
       "tags": [
         "marketing",
@@ -2530,8 +2530,8 @@
       "license": "MIT",
       "status": "available",
       "download": "https://raw.githubusercontent.com/luispereznet/hireabot/main/packages/video-editor.tar.gz",
-      "sha256": "ee72769ab0ba341b8573dd8450d4d313d39abf6d70223823ca9b51afb3fd9c1b",
-      "size": 10147
+      "sha256": "e5a12aa6d75640721d8dbb65487b0e61e3f4f47a0f6dd64504e4f951469b26fe",
+      "size": 10842
     },
     {
       "slug": "webby",
@@ -2539,7 +2539,6 @@
       "description": "Website, newsletter, and public dashboard admin you configure for your own site. Create-only. Ships rather than plans.",
       "version": "0.1.0",
       "summary": "Website, newsletter, and public dashboard admin you configure for your own site. Create-only. Ships rather than plans.",
-      "tags": [],
       "use_cases": [
         "Use when USER.md is missing: first-chat setup, skippable.",
         "Use after setup or when asked about routines: offer the close dashboard.",
@@ -2559,16 +2558,17 @@
       ],
       "hermes_requires": ">=0.22.5",
       "license": "MIT",
+      "tags": [],
       "status": "available",
       "download": "https://raw.githubusercontent.com/luispereznet/hireabot/main/packages/webby.tar.gz",
-      "sha256": "f4ed829080801bffae7092f3783c49151b5596ee0644b33de4101e8c70627b81",
-      "size": 18537
+      "sha256": "d7f007a8f5eecc14885b40b3d481849d744ffb0511162f6e81d9f07c0d622f2c",
+      "size": 19676
     },
     {
       "slug": "website-ops",
       "name": "Website Ops",
       "description": "Website operations and content manager.",
-      "version": "1.0.0",
+      "version": "0.1.0",
       "summary": "- Website operations and content manager. - Ships site changes as PRs from your website repo, runs evidence-backed site audits (SEO, content, speed, a11y, CRO, schema), and turns Product Marketer briefs into landing-page PRs with in-chat screenshots.",
       "tags": [
         "marketing",
@@ -2596,14 +2596,14 @@
       "license": "MIT",
       "status": "available",
       "download": "https://raw.githubusercontent.com/luispereznet/hireabot/main/packages/website-ops.tar.gz",
-      "sha256": "ac88beb2beb134ac3de5feb4dd3272cc10651ea990b637603268c9b8cd68e797",
-      "size": 13580
+      "sha256": "7b82792d2308c74484c43b23d1beeab0d42951d3552bf56789e9dc925e01ac99",
+      "size": 14851
     },
     {
       "slug": "writing-bot",
       "name": "Writing Bot",
       "description": "Drafts and revises any kind of writing so it is clearer, better structured, and right for its audience.",
-      "version": "1.0.0",
+      "version": "0.1.0",
       "summary": "- Writing Bot",
       "tags": [
         "marketing",
@@ -2616,14 +2616,14 @@
       "license": "MIT",
       "status": "available",
       "download": "https://raw.githubusercontent.com/luispereznet/hireabot/main/packages/writing-bot.tar.gz",
-      "sha256": "66be6693fdd1d772cd677319bf1f7f7d232ed096408d7acdd7605be19925f492",
-      "size": 7734
+      "sha256": "781a8eefe9cd56f54ea6a8ef7549e52e8c4dedb322151ab3d190d6124715a9a7",
+      "size": 8286
     },
     {
       "slug": "wtd",
       "name": "WTD",
       "description": "WTD is a VIP hospitality planning partner for marketing ops — project-plan and status rhythm across tentpoles and ticket banks, nomination-sheet tracking, marke",
-      "version": "1.0.0",
+      "version": "0.1.0",
       "summary": "- WTD is a VIP hospitality planning partner for marketing ops — project-plan and status rhythm across tentpoles and ticket banks, nomination-sheet tracking, marketing-visible status hubs, and decks or agendas. - Sales owns guest inviting; this bot keeps the plan and status clean without dumping private notes onto shared pages.",
       "tags": [
         "marketing",
@@ -2647,14 +2647,14 @@
       "license": "MIT",
       "status": "available",
       "download": "https://raw.githubusercontent.com/luispereznet/hireabot/main/packages/wtd.tar.gz",
-      "sha256": "f67d8eb7473cc53c90e5da8821305e7aebdb1de261e3ab5d7f6a59eba6de4af5",
-      "size": 11872
+      "sha256": "fb840944b8b92a692dfc7f0cc97d96face77c10684493ff8f34c84b08624e12e",
+      "size": 12620
     },
     {
       "slug": "x-brief",
       "name": "X Brief",
       "description": "Turns the X accounts and topics you pick into one short daily brief with a link on every line.",
-      "version": "1.0.0",
+      "version": "0.1.0",
       "summary": "- Turns the accounts and topics you pick on X into one short daily brief. - Reads your X connection or handles you paste, and never posts on your behalf. - I read the accounts, topics, and searches you care about on X and turn them into one short brief with a link on every line. - I check which X access works this session (Hermes's X search tool, the xurl X API tool, or pasted posts and links) and say so in one line.",
       "tags": [
         "marketing",
@@ -2677,8 +2677,8 @@
       "license": "MIT",
       "status": "available",
       "download": "https://raw.githubusercontent.com/luispereznet/hireabot/main/packages/x-brief.tar.gz",
-      "sha256": "6a9a403f63e41a8e4b7e55f4bb4e9fb6d0ae88bf19ca15153f7d460f5ba08881",
-      "size": 13374
+      "sha256": "1013cdf7a2d7b2ea8b842b462e8ee88daa34ad7d411ed81a286ee18730ad911d",
+      "size": 14151
     }
   ]
 }

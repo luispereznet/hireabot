@@ -22,6 +22,10 @@ Each bot is a complete Hermes profile: a personality (`SOUL.md`), skills, option
 
 No Python packages beyond the standard library are needed.
 
+## Desktop app
+
+Hermes Desktop gets a **Hire a Bot** sidebar section from this same plugin (`desktop/plugin.js`). Enable the Desktop switch under **Capabilities → Plugins**, then open **Hire a Bot** in the sidebar (or ⌘K → Open Hire a Bot). Browse or search the catalog and hire a bot as a new profile.
+
 ## Install
 
 From GitHub:
@@ -92,97 +96,97 @@ Every bot in the catalog, by name. Ask for one in plain words, or use its slug w
 
 | Bot | Slug | Version | What it does |
 | --- | --- | --- | --- |
-| Account Research Desk | `account-research-desk` | 1.0.0 | Researches the companies you sell to and writes your pre-call brief and account plan. |
-| Ad Spend Watch | `ad-spend-watch` | 1.0.0 | Watches your ad spend and performance and flags what's breaking before it burns budget. |
-| AI Search Visibility | `ai-search-visibility` | 1.0.0 | Checks whether AI assistants and Google recommend you, and who they name instead. |
+| Account Research Desk | `account-research-desk` | 0.1.0 | Researches the companies you sell to and writes your pre-call brief and account plan. |
+| Ad Spend Watch | `ad-spend-watch` | 0.1.0 | Watches your ad spend and performance and flags what's breaking before it burns budget. |
+| AI Search Visibility | `ai-search-visibility` | 0.1.0 | Checks whether AI assistants and Google recommend you, and who they name instead. |
 | Alfred | `alfred` | 0.1.0 | Designs, audits, and governs your Hermes bot organization so it matches real company outcomes, with clear human owners and no duplicate jobs. |
-| Apple Search Ads Review | `apple-search-ads-review` | 1.0.0 | Reviews your Apple Search Ads spend against your cost per install target. |
+| Apple Search Ads Review | `apple-search-ads-review` | 0.1.0 | Reviews your Apple Search Ads spend against your cost per install target. |
 | Bot Designer | `bot-designer` | 0.1.0 | Designs Hermes bots with a tight persona, real skills, and an audit before handoff. |
-| Call Follow-Ups | `call-follow-ups` | 1.0.0 | Turns each recorded call into a follow-up email in your voice, a next-steps note, and the CRM updates, including the qualification fields your team runs on. |
-| Chief Health Officer | `chief-health-officer` | 1.0.0 | Turns your health goals and notes into a dated plan, with unknowns marked and one next step. Early alpha. |
-| Clip Bot | `clip-bot` | 1.0.0 | Finds the best moments in a long recording and cuts them into short captioned clips. |
-| Company Docs Q&A | `company-docs-q-a` | 1.0.0 | Answers product and how-to questions from live docs first, then connected knowledge sources, and always cites sources. |
-| Competitor Watch | `competitor-watch` | 1.0.0 | Tracks competitor pricing, product, and hiring pages and briefs you on real changes. |
-| Cooper | `cooper` | 1.0.0 | News agent for AI, tech, venture capital, and business. |
-| Copy Humanizer | `copy-humanizer` | 1.0.0 | Edits and rewrites drafts so they read like a person wrote them, in your voice. |
-| Credit Card Max | `credit-card-max` | 1.0.0 | Tells you which of your credit cards to use for each purchase to get the most points, cash back and perks. |
-| Critiquito: Design Critique | `critiquito-design-critique` | 1.0.0 | Turns a screenshot or Figma link into a design critique with ranked, concrete fixes. |
-| Customer Call Coach & Assistant | `customer-call-coach-assistant` | 1.0.0 | Briefs you before customer calls and coaches you after based on your performance. |
-| Customer Proof Desk | `customer-proof-desk` | 1.0.0 | Turns call notes and transcripts into case studies, testimonials, and proof points. |
-| Deal Hunting | `deal-hunting` | 1.0.0 | Landed-cost shopping: real prices, shipping and tax, preferred retailers. |
-| Deal Inspector | `deal-inspector` | 1.0.0 | Checks every deal that moved stage against your qualification criteria using the actual call transcripts. |
-| dial bot | `dial-bot` | 1.0.0 | Places outbound Bland AI phone calls when you ask, then reports what happened. |
-| Director | `director` | 1.0.0 | Your video director: turn briefs into short films, ads, explainers, music videos, micro-dramas, and more — plan, shoot, cut, and deliver. |
-| Distro Bot | `distro-bot` | 1.0.0 | Runs your marketing loop end to end: campaigns on your ad accounts, fresh creative, real channel analysis, timely posts from X and web scans, and outbound until |
-| EBR & Value Deck Builder | `ebr-value-deck-builder` | 1.0.0 | Builds an executive business review or value deck for a named account from your CRM, call history, and usage data, on your brand, and hands you an editable file |
-| Engineer Bot | `engineer-bot` | 1.0.0 | A hands-off engineering supervisor. |
-| Engineering Lead | `engineering-lead` | 1.0.0 | An engineering lead that breaks work into small tasks, runs them with Hermes subagents or your coding tools, and chases tests, CI and reviews with the GitHub CLI. |
-| Event Producer | `event-producer` | 1.0.0 | Turns your event details into a run of show, guest list, and day-of checklist. |
-| Event Request Desk | `event-request-desk` | 1.0.0 | Scores every event, sponsorship, and speaking ask, then drafts your yes or no. |
-| Executive Assistant | `executive-assistant` | 1.0.0 | EA chief-of-staff bot for exec support: conference rooms, interview prep, leadership outreach, Slack channel inventories, sheet↔calendar checks, and birthday/an |
-| figma bro | `figma-bro` | 1.0.0 | Turns a Figma frame into a build spec, and audits your components, tokens, and motion. |
-| Flora: Plant Care Log | `flora-plant-care-log` | 1.0.0 | Flora keeps a private houseplant care log and weekly reminders. |
-| Game Art Director | `game-art-director` | 1.0.0 | Turns a game concept into a style guide, palettes, and prompt sheets for your image tool. |
-| GTM Account Research | `gtm-account-research` | 1.0.0 | Researches one account before a meeting, deal review, or account plan. |
-| GTM Connections | `gtm-connections` | 1.0.0 | Finds credible ways into a target account through mutual contacts, past conversations, shared history, and prior meetings. |
-| GTM Loop Closer | `gtm-loop-closer` | 1.0.0 | Finds promises, follow-ups, and customer details left behind in meetings, email, Slack, CRM, or task tools. |
-| GTM Prospecting | `gtm-prospecting` | 1.0.0 | Turns an ideal customer profile into a focused prospect list, adds useful context, and checks for existing relationships. |
-| Haggle Bot | `haggle-bot` | 1.0.0 | Inventories your SaaS spend from Ramp and bills, finds evidence-backed savings (unused seats, duplicates, cheaper alternatives), and drafts vendor counters for  |
-| Hiring Signals | `hiring-signals` | 1.0.0 | Tracks hiring activity across selected companies and job sources. |
-| Home robots | `home-robots` | 1.0.0 | Control home robots from chat: a Segway Navimow, a Matic vacuum, and other official vacuums, mowers, and Matter robots. |
-| Imogen | `imogen` | 1.0.0 | Imogen the Impala Image Interpreter writes brief, copyable alt text focused on the most important part of an image, so images are accessible to blind people. |
+| Call Follow-Ups | `call-follow-ups` | 0.1.0 | Turns each recorded call into a follow-up email in your voice, a next-steps note, and the CRM updates, including the qualification fields your team runs on. |
+| Chief Health Officer | `chief-health-officer` | 0.1.0 | Turns your health goals and notes into a dated plan, with unknowns marked and one next step. Early alpha. |
+| Clip Bot | `clip-bot` | 0.1.0 | Finds the best moments in a long recording and cuts them into short captioned clips. |
+| Company Docs Q&A | `company-docs-q-a` | 0.1.0 | Answers product and how-to questions from live docs first, then connected knowledge sources, and always cites sources. |
+| Competitor Watch | `competitor-watch` | 0.1.0 | Tracks competitor pricing, product, and hiring pages and briefs you on real changes. |
+| Cooper | `cooper` | 0.1.0 | News agent for AI, tech, venture capital, and business. |
+| Copy Humanizer | `copy-humanizer` | 0.1.0 | Edits and rewrites drafts so they read like a person wrote them, in your voice. |
+| Credit Card Max | `credit-card-max` | 0.1.0 | Tells you which of your credit cards to use for each purchase to get the most points, cash back and perks. |
+| Critiquito: Design Critique | `critiquito-design-critique` | 0.1.0 | Turns a screenshot or Figma link into a design critique with ranked, concrete fixes. |
+| Customer Call Coach & Assistant | `customer-call-coach-assistant` | 0.1.0 | Briefs you before customer calls and coaches you after based on your performance. |
+| Customer Proof Desk | `customer-proof-desk` | 0.1.0 | Turns call notes and transcripts into case studies, testimonials, and proof points. |
+| Deal Hunting | `deal-hunting` | 0.1.0 | Landed-cost shopping: real prices, shipping and tax, preferred retailers. |
+| Deal Inspector | `deal-inspector` | 0.1.0 | Checks every deal that moved stage against your qualification criteria using the actual call transcripts. |
+| dial bot | `dial-bot` | 0.1.0 | Places outbound Bland AI phone calls when you ask, then reports what happened. |
+| Director | `director` | 0.1.0 | Your video director: turn briefs into short films, ads, explainers, music videos, micro-dramas, and more — plan, shoot, cut, and deliver. |
+| Distro Bot | `distro-bot` | 0.1.0 | Runs your marketing loop end to end: campaigns on your ad accounts, fresh creative, real channel analysis, timely posts from X and web scans, and outbound until |
+| EBR & Value Deck Builder | `ebr-value-deck-builder` | 0.1.0 | Builds an executive business review or value deck for a named account from your CRM, call history, and usage data, on your brand, and hands you an editable file |
+| Engineer Bot | `engineer-bot` | 0.1.0 | A hands-off engineering supervisor. |
+| Engineering Lead | `engineering-lead` | 0.1.0 | An engineering lead that breaks work into small tasks, runs them with Hermes subagents or your coding tools, and chases tests, CI and reviews with the GitHub CLI. |
+| Event Producer | `event-producer` | 0.1.0 | Turns your event details into a run of show, guest list, and day-of checklist. |
+| Event Request Desk | `event-request-desk` | 0.1.0 | Scores every event, sponsorship, and speaking ask, then drafts your yes or no. |
+| Executive Assistant | `executive-assistant` | 0.1.0 | EA chief-of-staff bot for exec support: conference rooms, interview prep, leadership outreach, Slack channel inventories, sheet↔calendar checks, and birthday/an |
+| figma bro | `figma-bro` | 0.1.0 | Turns a Figma frame into a build spec, and audits your components, tokens, and motion. |
+| Flora: Plant Care Log | `flora-plant-care-log` | 0.1.0 | Flora keeps a private houseplant care log and weekly reminders. |
+| Game Art Director | `game-art-director` | 0.1.0 | Turns a game concept into a style guide, palettes, and prompt sheets for your image tool. |
+| GTM Account Research | `gtm-account-research` | 0.1.0 | Researches one account before a meeting, deal review, or account plan. |
+| GTM Connections | `gtm-connections` | 0.1.0 | Finds credible ways into a target account through mutual contacts, past conversations, shared history, and prior meetings. |
+| GTM Loop Closer | `gtm-loop-closer` | 0.1.0 | Finds promises, follow-ups, and customer details left behind in meetings, email, Slack, CRM, or task tools. |
+| GTM Prospecting | `gtm-prospecting` | 0.1.0 | Turns an ideal customer profile into a focused prospect list, adds useful context, and checks for existing relationships. |
+| Haggle Bot | `haggle-bot` | 0.1.0 | Inventories your SaaS spend from Ramp and bills, finds evidence-backed savings (unused seats, duplicates, cheaper alternatives), and drafts vendor counters for  |
+| Hiring Signals | `hiring-signals` | 0.1.0 | Tracks hiring activity across selected companies and job sources. |
+| Home robots | `home-robots` | 0.1.0 | Control home robots from chat: a Segway Navimow, a Matic vacuum, and other official vacuums, mowers, and Matter robots. |
+| Imogen | `imogen` | 0.1.0 | Imogen the Impala Image Interpreter writes brief, copyable alt text focused on the most important part of an image, so images are accessible to blind people. |
 | Import Bot | `import-bot` | 0.1.0 | Imports Claude Cowork, Codex, ChatGPT, and OpenClaw setups into Hermes expert bots. |
 | last30days | `last30days` | 0.1.0 | Finds what people actually said about any topic in the last 30 days and writes a cited brief from public sources. |
-| Lead Pipeline Desk | `lead-pipeline-desk` | 1.0.0 | Scores your inbound leads, merges duplicates, assigns an owner, and flags what's stuck. |
-| Love ❤️ | `love` | 1.0.0 | Takes the admin out of being a good Partner so the attention can go where it counts. |
-| Luma Pages | `luma-pages` | 1.0.0 | Builds and updates private Luma event pages for field marketers — copy, branding, registration settings, capacity and waitlist, and registration-list hygiene. |
-| Market Researcher | `market-researcher` | 1.0.0 | Monitors your competitors' public websites, ads, marketing, pricing, and positioning on a standing cadence. |
-| Marketing Analyst | `marketing-analyst` | 1.0.0 | Google Ads–first performance analyst: turns exports into weekly and monthly reports with commentary, answers reporting asks with real numbers, and watches spend |
-| Meeting Recap Deck | `meeting-recap-deck` | 1.0.0 | Turns your meeting notes into a recap deck in your slide template. |
-| Nightly Audit Engineer | `nightly-audit-engineer` | 1.0.0 | A nightly engineering auditor that researches a whole codebase, then ships one cleanup PR per area. |
-| NYC Parent | `nyc-parent` | 1.0.0 | A family chief of staff for New York City parents. |
-| Office Ops Desk | `office-ops-desk` | 1.0.0 | Tracks office shipments, facilities issues, and team birthdays, then writes the digests. |
-| Outbound Prospecting | `outbound-prospecting` | 1.0.0 | Finds prospects that match your ideal customer, then drafts a first message to each one. |
-| Overheard | `overheard` | 1.0.0 | Watches Reddit, Hacker News, news sites, and X for third-party mentions of your name, brand, and URLs, then sends a short weekday digest when something clears t |
-| Paid Media Report Desk | `paid-media-report-desk` | 1.0.0 | Turns your Google Ads, Meta, and LinkedIn exports into one weekly report with commentary. |
-| Partnerships Call Coach | `partnerships-call-coach` | 1.0.0 | Pitch and delivery coach for partnership, sponsorship, and high-stakes discovery calls. |
-| Performance Marketer | `performance-marketer` | 1.0.0 | A performance marketer that turns Product Marketer ad copy into paused Maximize-clicks Google Ads Search shells for messaging tests — review sheets first, then  |
+| Lead Pipeline Desk | `lead-pipeline-desk` | 0.1.0 | Scores your inbound leads, merges duplicates, assigns an owner, and flags what's stuck. |
+| Love ❤️ | `love` | 0.1.0 | Takes the admin out of being a good Partner so the attention can go where it counts. |
+| Luma Pages | `luma-pages` | 0.1.0 | Builds and updates private Luma event pages for field marketers — copy, branding, registration settings, capacity and waitlist, and registration-list hygiene. |
+| Market Researcher | `market-researcher` | 0.1.0 | Monitors your competitors' public websites, ads, marketing, pricing, and positioning on a standing cadence. |
+| Marketing Analyst | `marketing-analyst` | 0.1.0 | Google Ads–first performance analyst: turns exports into weekly and monthly reports with commentary, answers reporting asks with real numbers, and watches spend |
+| Meeting Recap Deck | `meeting-recap-deck` | 0.1.0 | Turns your meeting notes into a recap deck in your slide template. |
+| Nightly Audit Engineer | `nightly-audit-engineer` | 0.1.0 | A nightly engineering auditor that researches a whole codebase, then ships one cleanup PR per area. |
+| NYC Parent | `nyc-parent` | 0.1.0 | A family chief of staff for New York City parents. |
+| Office Ops Desk | `office-ops-desk` | 0.1.0 | Tracks office shipments, facilities issues, and team birthdays, then writes the digests. |
+| Outbound Prospecting | `outbound-prospecting` | 0.1.0 | Finds prospects that match your ideal customer, then drafts a first message to each one. |
+| Overheard | `overheard` | 0.1.0 | Watches Reddit, Hacker News, news sites, and X for third-party mentions of your name, brand, and URLs, then sends a short weekday digest when something clears t |
+| Paid Media Report Desk | `paid-media-report-desk` | 0.1.0 | Turns your Google Ads, Meta, and LinkedIn exports into one weekly report with commentary. |
+| Partnerships Call Coach | `partnerships-call-coach` | 0.1.0 | Pitch and delivery coach for partnership, sponsorship, and high-stakes discovery calls. |
+| Performance Marketer | `performance-marketer` | 0.1.0 | A performance marketer that turns Product Marketer ad copy into paused Maximize-clicks Google Ads Search shells for messaging tests — review sheets first, then  |
 | Pfp Bot | `pfp-bot` | 0.1.0 | Turns a photo into a Playbook Icon that keeps hair, colors, and up to three signature features. |
-| Pipeline Pulse | `pipeline-pulse` | 1.0.0 | Scans your full pipeline for movement, stale next steps, forecast risk, and CRM gaps. |
-| Pitch Deck Coach | `pitch-deck-coach` | 1.0.0 | Reviews a pitch deck and reports what an investor is likely to understand, believe, question, and remember, then helps strengthen the story, evidence, and slide |
-| PM bot | `pm-bot` | 1.0.0 | Acts as your PM. |
-| Product Idea Stress Test | `product-idea-stress-test` | 1.0.0 | Investigates a product or startup idea for founders. |
-| Product Marketer | `product-marketer` | 1.0.0 | Learns your product, brand, tone, and positioning principles; uses competitive research to sharpen how you stand out; drafts and crafts copy against those princ |
-| Product Support Inbox Assistant | `product-support-inbox-assistant` | 1.0.0 | Helps you find and draft answers to product questions. |
-| Project Manager | `project-manager` | 1.0.0 | Marketing project manager that coordinates research, positioning, landing pages, ads, and analytics across specialist bots — with screenshot check-ins and human |
+| Pipeline Pulse | `pipeline-pulse` | 0.1.0 | Scans your full pipeline for movement, stale next steps, forecast risk, and CRM gaps. |
+| Pitch Deck Coach | `pitch-deck-coach` | 0.1.0 | Reviews a pitch deck and reports what an investor is likely to understand, believe, question, and remember, then helps strengthen the story, evidence, and slide |
+| PM bot | `pm-bot` | 0.1.0 | Acts as your PM. |
+| Product Idea Stress Test | `product-idea-stress-test` | 0.1.0 | Investigates a product or startup idea for founders. |
+| Product Marketer | `product-marketer` | 0.1.0 | Learns your product, brand, tone, and positioning principles; uses competitive research to sharpen how you stand out; drafts and crafts copy against those princ |
+| Product Support Inbox Assistant | `product-support-inbox-assistant` | 0.1.0 | Helps you find and draft answers to product questions. |
+| Project Manager | `project-manager` | 0.1.0 | Marketing project manager that coordinates research, positioning, landing pages, ads, and analytics across specialist bots — with screenshot check-ins and human |
 | Projects Manager | `projects-manager` | 0.1.0 | Runs your team's projects from your own Notion: one row per project, an optional Slack channel per project, and tasks your specialist Hermes bots claim. You decide, agents execute, and it never does the specialist work itself. |
 | Proto Bot | `proto-bot` | 0.1.0 | Turns daily ideas into draft pull requests in your real app, with screenshots, a short video, mocks, and media. |
-| QA bot | `qa-bot` | 1.0.0 | Acts as your QA on the live deploy: runs the acceptance checklist and says pass or fail before you ship. |
-| Recruiting Coordinator | `recruiting-coordinator` | 1.0.0 | Schedules interview loops, preps your interviewers, and chases what's stalled. |
-| Researchy | `researchy` | 1.0.0 | A research and fact-check desk that runs every pass with live web search. |
-| Sales Call Coach | `sales-call-coach` | 1.0.0 | Scores your sales calls and tells you what to fix before the next one. |
-| Sell Bot | `sell-bot` | 1.0.0 | Works your whole customer journey: outreach in your voice, booked calls with prep and follow-ups, proposals and contracts, then activation, support and billing  |
-| SEO & AEO Desk | `seo-aeo-desk` | 1.0.0 | Turns your keywords into content ideas and writer-ready briefs for search and AI answers. |
-| Sequencer | `sequencer` | 1.0.0 | Runs your outbound sequencer as a staff function. |
-| Signal Prospector | `signal-prospector` | 1.0.0 | Finds the accounts and people in your CRM and product data that just showed intent, ranks them, and drafts the first touch. |
-| Site Audit | `site-audit` | 1.0.0 | SEO + content + speed + a11y + CRO + schema audit. |
-| skippy | `skippy` | 1.0.0 | A San Francisco street-cleaning assistant. |
-| Stalk Bot | `stalk-bot` | 1.0.0 | Signs up for your competitors' newsletters and products under its own research email, walks their onboarding on video, and watches their site, pricing, changelo |
-| Startup QA Bot | `startup-qa-bot` | 1.0.0 | Walks your product every weekday in its own test account and tells you what shipped, what got unshipped, what broke (with repro steps and screenshots), and whic |
-| Stills & Clips Desk | `stills-clips-desk` | 1.0.0 | Pulls stills, thumbnails, and short clips out of your footage, sized for where they go. |
-| SWE | `swe` | 1.0.0 | Software engineer bot that implements a code change and verifies it. |
-| Talent Discovery | `talent-discovery` | 1.0.0 | Finds candidates for open roles that match your criteria and aren't already in your ATS. |
-| Tech Demos | `tech-demos` | 1.0.0 | Weekday X-bookmark scout that picks one new library to demo, asks for approval, then plans and builds it in a sticky monorepo with a cloud coding agent. |
-| The Morning Newspaper | `the-morning-newspaper` | 1.0.0 | Puts together a personal morning newspaper for you to read each day. Early alpha. |
+| QA bot | `qa-bot` | 0.1.0 | Acts as your QA on the live deploy: runs the acceptance checklist and says pass or fail before you ship. |
+| Recruiting Coordinator | `recruiting-coordinator` | 0.1.0 | Schedules interview loops, preps your interviewers, and chases what's stalled. |
+| Researchy | `researchy` | 0.1.0 | A research and fact-check desk that runs every pass with live web search. |
+| Sales Call Coach | `sales-call-coach` | 0.1.0 | Scores your sales calls and tells you what to fix before the next one. |
+| Sell Bot | `sell-bot` | 0.1.0 | Works your whole customer journey: outreach in your voice, booked calls with prep and follow-ups, proposals and contracts, then activation, support and billing  |
+| SEO & AEO Desk | `seo-aeo-desk` | 0.1.0 | Turns your keywords into content ideas and writer-ready briefs for search and AI answers. |
+| Sequencer | `sequencer` | 0.1.0 | Runs your outbound sequencer as a staff function. |
+| Signal Prospector | `signal-prospector` | 0.1.0 | Finds the accounts and people in your CRM and product data that just showed intent, ranks them, and drafts the first touch. |
+| Site Audit | `site-audit` | 0.1.0 | SEO + content + speed + a11y + CRO + schema audit. |
+| skippy | `skippy` | 0.1.0 | A San Francisco street-cleaning assistant. |
+| Stalk Bot | `stalk-bot` | 0.1.0 | Signs up for your competitors' newsletters and products under its own research email, walks their onboarding on video, and watches their site, pricing, changelo |
+| Startup QA Bot | `startup-qa-bot` | 0.1.0 | Walks your product every weekday in its own test account and tells you what shipped, what got unshipped, what broke (with repro steps and screenshots), and whic |
+| Stills & Clips Desk | `stills-clips-desk` | 0.1.0 | Pulls stills, thumbnails, and short clips out of your footage, sized for where they go. |
+| SWE | `swe` | 0.1.0 | Software engineer bot that implements a code change and verifies it. |
+| Talent Discovery | `talent-discovery` | 0.1.0 | Finds candidates for open roles that match your criteria and aren't already in your ATS. |
+| Tech Demos | `tech-demos` | 0.1.0 | Weekday X-bookmark scout that picks one new library to demo, asks for approval, then plans and builds it in a sticky monorepo with a cloud coding agent. |
+| The Morning Newspaper | `the-morning-newspaper` | 0.1.0 | Puts together a personal morning newspaper for you to read each day. Early alpha. |
 | tinkabot | `tinkabot` | 0.1.0 | Wraps an HTTP API or OpenAPI/spec into a local MCP server plus Hermes skills. Proves it locally. Publishes only when you name a destination. |
-| Tradbot | `tradbot` | 1.0.0 | Watches your personal email and family schedule so school forms, bills, and RSVPs don't slip. |
-| Video Edit Desk | `video-edit-desk` | 1.0.0 | Turns uploaded footage into cut clips, burned-in captions, and platform-sized exports. |
-| Video Editor | `video-editor` | 1.0.0 | Edits short vertical talking-head videos from your raw footage: picks the best takes, captions what you actually said, and adds B-roll, motion graphics, and mus |
+| Tradbot | `tradbot` | 0.1.0 | Watches your personal email and family schedule so school forms, bills, and RSVPs don't slip. |
+| Video Edit Desk | `video-edit-desk` | 0.1.0 | Turns uploaded footage into cut clips, burned-in captions, and platform-sized exports. |
+| Video Editor | `video-editor` | 0.1.0 | Edits short vertical talking-head videos from your raw footage: picks the best takes, captions what you actually said, and adds B-roll, motion graphics, and mus |
 | Webby | `webby` | 0.1.0 | Website, newsletter, and public dashboard admin you configure for your own site. Create-only. Ships rather than plans. |
-| Website Ops | `website-ops` | 1.0.0 | Website operations and content manager. |
-| Writing Bot | `writing-bot` | 1.0.0 | Drafts and revises any kind of writing so it is clearer, better structured, and right for its audience. |
-| WTD | `wtd` | 1.0.0 | WTD is a VIP hospitality planning partner for marketing ops — project-plan and status rhythm across tentpoles and ticket banks, nomination-sheet tracking, marke |
-| X Brief | `x-brief` | 1.0.0 | Turns the X accounts and topics you pick into one short daily brief with a link on every line. |
+| Website Ops | `website-ops` | 0.1.0 | Website operations and content manager. |
+| Writing Bot | `writing-bot` | 0.1.0 | Drafts and revises any kind of writing so it is clearer, better structured, and right for its audience. |
+| WTD | `wtd` | 0.1.0 | WTD is a VIP hospitality planning partner for marketing ops — project-plan and status rhythm across tentpoles and ticket banks, nomination-sheet tracking, marke |
+| X Brief | `x-brief` | 0.1.0 | Turns the X accounts and topics you pick into one short daily brief with a link on every line. |
 <!-- BOTS:END -->
 
 New bots are added to the catalog over time. You do not need to update the plugin to see them (see [How updates work](#how-updates-work)).
