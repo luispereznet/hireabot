@@ -19,6 +19,6 @@ description: Use when the user asks for a bot, assistant or agent that can do a 
    - `hermes -p <slug> config set model.default <model-name>`
    - `hermes -p <slug> config set model.api_mode <api_mode>`
    The new bot starts with empty memory and none of the user's data.
-5. No match (empty results, or `hireabot_info` says unknown bot): say so plainly, then offer to create a bot for that job. Follow the `create_a_bot` steps in the tool response: ask what the bot should do, create a new profile (`hermes profile create <name>`), write its SOUL.md and skills with the user, and suggest Bot Designer if it is in the catalog. Never create or install anything until the user says yes.
+5. No match (empty results, or `hireabot_info` says unknown bot): say plainly that nothing in the catalog matches that area. Offer to install Bot Designer (`hireabot_install slug=bot-designer`), explaining that its own interview and build process helps the user create the bot they need. Hireabot does not create bots. Never install anything until the user says yes.
 
 Never install more than the one bot the user asked for. Never remove profiles.

@@ -233,22 +233,37 @@ class CatalogCacheTests(unittest.TestCase):
         self.assertEqual(results[0]["slug"], "demo-bot")
 
 
-    def test_no_match_prompts_create(self):
+    def assert_designer_handoff(self, text):
+        self.assertIn("Nothing in the catalog matches that area.", text)
+        self.assertIn("hireabot_install slug=bot-designer", text)
+        self.assertIn("interview and build process", text)
+        self.assertIn("yes", text)
+        for forbidden in ("create_a_bot", "hermes profile create", "SOUL.md", "hermes -p", "Describe the job"):
+            self.assertNotIn(forbidden, text)
+
+    def test_no_match_hands_off_to_designer(self):
         d = json.loads(T.hireabot_search({"query": "zzqx unicorn grooming"}))
         self.assertTrue(d["ok"])
         self.assertEqual(d["results"], [])
-        self.assertIn("create_a_bot", d)
-        self.assertTrue(d["create_a_bot"]["steps"])
-        self.assertIn("zzqx unicorn grooming", " ".join(d["create_a_bot"]["steps"]))
+        self.assert_designer_handoff(json.dumps(d))
 
-    def test_unknown_slug_prompts_create(self):
+    def test_unknown_slug_hands_off_to_designer(self):
         d = json.loads(T.hireabot_info({"slug": "no-such-bot"}))
         self.assertFalse(d["ok"])
-        self.assertIn("create_a_bot", d)
+        self.assert_designer_handoff(json.dumps(d))
 
     def test_slash_no_match_text(self):
-        out = T.slash_hireabot("zzqx unicorn grooming")
-        self.assertIn("Want to create one?", out)
+        self.assert_designer_handoff(T.slash_hireabot("zzqx unicorn grooming"))
+        self.assert_designer_handoff(T.slash_hireabot("info no-such-bot"))
+
+    def test_matching_handler_preserves_search_results(self):
+        query = "coach my sales calls"
+        expected = T.search(query, 5)
+        self.assertTrue(expected)
+        d = json.loads(T.hireabot_search({"query": query}))
+        self.assertTrue(d["ok"])
+        self.assertNotIn("bot_designer", d)
+        self.assertEqual([{k: v for k, v in r.items() if k != "installed"} for r in d["results"]], expected)
 
 
 if __name__ == "__main__":

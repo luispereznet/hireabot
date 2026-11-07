@@ -214,7 +214,7 @@ def score(bot: dict, q_terms: list[str], q_raw: str) -> float:
 
 
 # A result must cover more than half of the query's words, or score high on the
-# weighted fields. Below that it is noise, and the user is offered to create a bot.
+# weighted fields. Below that it is noise, and the user is offered Bot Designer.
 MIN_COVERAGE = 0.5
 STRONG_SCORE = 8.0
 
@@ -504,34 +504,17 @@ def _check_archive(path: Path, slug: str) -> None:
                 raise ValueError(f"archive carries an unexpected file ({m.name}); refusing")
 
 
-# ---------- no match: help the user create a bot ----------
+# ---------- no match: hand off bot creation to Bot Designer ----------
 
-def _create_bot_prompt(need: str = "") -> dict:
-    """What to tell the user when the catalog has no bot for their job."""
-    job = need.strip() or "<the job, in a sentence or two>"
-    steps = [
-        "Describe the job: what the bot should do, how often, what it reads, and what it hands back.",
-        "Pick a short lowercase name for it, e.g. `hermes profile create <name> --description \"<one line>\"`.",
-        f"Then ask Hermes: \"Write a SOUL.md and the skills for a bot whose job is: {job}\" "
-        "and save them into that new profile.",
-        "Start it with `hermes -p <name>` and refine it as you use it.",
-    ]
-    try:
-        cat, _ = load_catalog()
-        if _find(cat, "bot-designer"):
-            steps.append(
-                "Or install Bot Designer from this catalog (hireabot_install slug=bot-designer); "
-                "it designs a new Hermes bot with you, step by step."
-            )
-    except Exception:
-        pass
+def _bot_designer_prompt() -> dict:
+    """Offer the designer, not a direct bot-building workflow."""
     return {
-        "message": (
-            "No ready-made bot matches that yet. Offer to create one with the user: "
-            "ask what the bot should do, then build it as a new Hermes profile."
+        "message": "Nothing in the catalog matches that area.",
+        "offer": (
+            "Would you like to install Bot Designer (hireabot_install slug=bot-designer)? "
+            "Bot Designer helps you create the bot you need through its own interview and build process. "
+            "Install only after the user says yes."
         ),
-        "steps": steps,
-        "contribute": "Built something useful? Share it as a pull request at https://github.com/luispereznet/hireabot.",
     }
 
 
@@ -550,8 +533,8 @@ def hireabot_search(args: dict, **kwargs) -> str:
             return _ok(
                 query=query,
                 results=[],
-                hint="No match. Prompt the user to create a bot for this job (see create_a_bot).",
-                create_a_bot=_create_bot_prompt(query),
+                hint="Nothing in the catalog matches that area. Offer to install Bot Designer only with the user's yes.",
+                bot_designer=_bot_designer_prompt(),
             )
         return _ok(
             query=query,
@@ -570,8 +553,8 @@ def hireabot_info(args: dict, **kwargs) -> str:
         if not bot:
             return _err(
                 f"unknown bot '{slug}'",
-                hint="Try hireabot_search with what the user needs. If nothing fits, prompt them to create a bot.",
-                create_a_bot=_create_bot_prompt(),
+                hint="Try hireabot_search with what the user needs. If nothing fits, offer to install Bot Designer with the user's yes.",
+                bot_designer=_bot_designer_prompt(),
             )
         info = {
             k: bot.get(k)
@@ -680,12 +663,8 @@ def hireabot_install(args: dict, **kwargs) -> str:
         return _err(f"install failed: {e}")
 
 
-def _create_text(c: dict) -> str:
-    lines = ["No ready-made bot for that yet. Want to create one?"]
-    lines += [f"  {i}. {step}" for i, step in enumerate(c.get("steps", []), 1)]
-    if c.get("contribute"):
-        lines.append(c["contribute"])
-    return "\n".join(lines)
+def _bot_designer_text(prompt: dict) -> str:
+    return prompt["message"] + "\n" + prompt["offer"]
 
 
 def slash_hireabot(raw_args: str, **kwargs) -> str:
@@ -695,7 +674,7 @@ def slash_hireabot(raw_args: str, **kwargs) -> str:
     if raw.startswith("info "):
         d = json.loads(hireabot_info({"slug": raw[5:]}))
         if not d.get("ok"):
-            return d.get("error", "error") + (_create_text(d["create_a_bot"]) if d.get("create_a_bot") else "")
+            return d.get("error", "error") + ("\n" + _bot_designer_text(d["bot_designer"]) if d.get("bot_designer") else "")
         b = d["bot"]
         return (
             f"{b['name']} ({b['slug']}) v{b['version']}\n{b['description']}\n\n"
@@ -705,7 +684,7 @@ def slash_hireabot(raw_args: str, **kwargs) -> str:
     if not d.get("ok"):
         return d.get("error", "error")
     if not d["results"]:
-        return _create_text(d.get("create_a_bot") or _create_bot_prompt(raw))
+        return _bot_designer_text(d.get("bot_designer") or _bot_designer_prompt())
     return "\n".join(
         f"{r['score']:.2f}  {r['slug']}  {r['description']}"
         + ("  [installed]" if r["installed"] else "")

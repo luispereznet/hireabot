@@ -14,6 +14,8 @@ Each bot is a complete Hermes profile: a personality (`SOUL.md`), skills, option
 
 > **Status: alpha and beta.** The bots in this catalog are in alpha and beta stages. Some may not do their job properly yet. They will be fully released in the coming days, and fixes land in this repo as they are made. Found a problem or have an improvement? Pull requests are welcome (see [Contributing](#contributing)).
 
+Have a bot to share? [Submit your own bot to the catalog](CONTRIBUTING.md). Contributing is optional.
+
 ## Requirements
 
 - [Hermes Agent](https://hermes-agent.nousresearch.com/) 0.22.5 or newer
@@ -59,7 +61,7 @@ Then start Hermes (`hermes`) and ask for a bot in plain words.
 
 | Tool | What it does | Changes anything? |
 | --- | --- | --- |
-| `hireabot_search` | Matches what you need against each bot's name, use cases, description and tags. Returns the best matches with slug, name, description, a relative match score, and whether it is already installed. Weak matches (most of your words not found, low score) are dropped. With no match, it returns steps for creating a bot instead (see [When no bot fits](#when-no-bot-fits)). | No |
+| `hireabot_search` | Matches what you need against each bot's name, use cases, description and tags. Returns the best matches with slug, name, description, a relative match score, and whether it is already installed. Weak matches (most of your words not found, low score) are dropped. With no match, it offers to install Bot Designer instead (see [When no bot fits](#when-no-bot-fits)). | No |
 | `hireabot_info` | Shows one bot's full details (summary, version, license, tags, use cases, package checksum) and the exact install steps. | No |
 | `hireabot_install` | Downloads the bot package, checks its size and sha256 against the catalog, checks every file in it against an allowlist, then runs `hermes profile import`. After import it copies your model settings onto the new profile. | Yes: adds one new profile |
 
@@ -193,14 +195,9 @@ New bots are added to the catalog over time. You do not need to update the plugi
 
 ## When no bot fits
 
-If `hireabot_search` finds nothing, or you ask about a bot that is not in the catalog, Hireabot does not stop at "no results". The tool response includes a `create_a_bot` prompt, and Hermes offers to create a bot for your job with you:
+If `hireabot_search` finds nothing, or you ask about a bot that is not in the catalog, Hireabot says plainly that nothing in the catalog matches that area. The tool response includes a `bot_designer` handoff offering to install Bot Designer (`hireabot_install slug=bot-designer`). Bot Designer helps you create the bot you need through its own interview and build process; Hireabot does not create bots.
 
-1. Describe the job: what the bot should do, how often, what it reads, and what it hands back.
-2. Create a new profile for it: `hermes profile create <name> --description "<one line>"`.
-3. Ask Hermes to write the bot's `SOUL.md` and skills for that job and save them into the new profile.
-4. Start it with `hermes -p <name>` and refine it as you use it.
-
-If Bot Designer is in the catalog, Hermes also offers to install it (`hireabot_install slug=bot-designer`); it designs a new Hermes bot with you step by step. Nothing is created or installed until you say yes. The slash command does the same: `/hireabot <something not in the catalog>` prints these steps.
+Nothing is installed until you say yes. The slash command offers the same handoff instead of direct bot-creation steps.
 
 ## After you install a bot
 
@@ -299,7 +296,7 @@ tests/                   unit tests
 Pull requests are welcome, especially fixes and improvements to the bots:
 
 - **Update a bot:** each bot is a `.tar.gz` in [`packages/`](packages/). Unpack it, make your change (persona in `SOUL.md`, skills under `skills/`), bump `version` in its `distribution.yaml`, pack it again with the bot folder at the top level, then run `scripts/build_catalog.py` so `data/catalog.json` gets the new sha256 and size. Open a PR that says what the bot does better.
-- **Add a bot:** same layout as the others (`SOUL.md`, `README.md`, `config.yaml`, `profile.yaml`, `distribution.yaml`, `skills/`). No `.env`, API keys, `auth.json`, sessions or personal memories.
+- **Add a bot:** follow the [submission guide](CONTRIBUTING.md) for new contributions, including a public loadable Hermes plugin pinned to a full commit SHA and passing local checks.
 - **Plugin changes:** keep every tool returning JSON, and run the validate, doctor and unit test commands above before you open the PR.
 
 ## License

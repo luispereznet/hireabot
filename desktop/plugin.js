@@ -337,7 +337,7 @@ function HireabotPage({ rest }) {
         ? jsx(EmptyState, {
             title: debounced ? 'No matching bots' : 'No bots in catalog',
             description: debounced
-              ? 'Try a shorter search, or ask chat to design a new bot.'
+              ? 'Nothing in the catalog matches that area. Ask chat to install Bot Designer (hireabot_install slug=bot-designer); its own interview and build process helps create the bot you need. Installation needs your yes.'
               : 'Check the catalog source in Settings → Plugins → Hireabot.'
           })
         : null,
