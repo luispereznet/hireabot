@@ -195,8 +195,8 @@
       "tags": [],
       "status": "available",
       "download": "https://raw.githubusercontent.com/luispereznet/hireabot/main/packages/bot-designer.tar.gz",
-      "sha256": "304eee4ca18e640bbc01eb09c4f9cef3840991f5c462af1ac8d16ed9e1fab2f5",
-      "size": 12611
+      "sha256": "d98a440616191190949e4080392bb29218dadde3b220182a6ea340e170fbe8bf",
+      "size": 12480
     },
     {
       "slug": "call-follow-ups",
