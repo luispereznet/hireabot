@@ -89,7 +89,7 @@ def _readme_table(bots: list[dict]) -> str:
     rows = ["| Bot | Slug | Version | What it does |", "| --- | --- | --- | --- |"]
     for b in sorted(bots, key=lambda b: b["name"].lower()):
         desc = b["description"].replace("|", "\\|")
-        rows.append(f"| {b['name']} | `{b['slug']}` | {b['version']} | {desc} |")
+        rows.append(f"| [{b['name']}](bots/{b['slug']}.md) | `{b['slug']}` | {b['version']} | {desc} |")
     return f"{START}\n{len(bots)} bots.\n\n" + "\n".join(rows) + f"\n{END}"
 
 

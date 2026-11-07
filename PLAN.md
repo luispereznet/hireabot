@@ -11,6 +11,9 @@
 - [x] Require audit_bot.py, validation, and doctor to pass before a submission PR. Audit remains a separate gate; its public distribution is not established here.
 - [x] Document eight safety and quality requirements and six plain-language fields covering identity, intended result, skills, scripts, and any supported optional conversion.
 
+- [x] Add archive-grounded detail pages for all 91 catalog bots, with complete skill/script inventories, source checksums, documented limits, and relative README links.
+- [x] Add a repeatable docs builder and archive/link/idempotence tests; keep runtime, catalog metadata, and packages unchanged by docs generation.
+
 ## Boundaries
 
 Existing profile archives are not automatically loadable plugins. No automatic conversion is promised. A supported skill-to-script conversion requires the installing user's accept-or-decline choice. Contributions are optional. Nothing is installed, submitted, or published automatically.
